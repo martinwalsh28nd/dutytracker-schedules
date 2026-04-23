@@ -39,13 +39,13 @@ to `main` shows up to the app within a few minutes of push.
   "call_definitions": { /* see file */ },
   "schedule": [
     {
-      "date": "2026-04-22",          // ISO date (yyyy-MM-dd)
+      "date": "2026-04-22",           // ISO date (yyyy-MM-dd)
       "dow": "Wed",
-      "first_call":  "White",        // 1ST call, usually PGY-2
-      "second_call": "Gokhale",      // 2ND call
-      "snr_call":    "Smith",        // SNR backup for 1ST + 2ND
-      "students":    ["Sun", "Mckay"] // STU-A daytime / STU-B overnight
-    },
+      "intern":       "White",        // Row 1 under the date — intern call
+      "intermediate": "Gokhale",      // Row 2 — night float / intermediate
+      "chief":        "Smith",        // Row 3 — chief (may be cross-program)
+      "vacations":    ["Sun", "Mckay"] // Row 4 — residents out that day
+    }
     // ... one entry per day the schedule covers
   ]
 }
@@ -54,19 +54,32 @@ to `main` shows up to the app within a few minutes of push.
 Any day not present in `schedule[]` means "not in the currently
 published schedule" — the app should render that as unknown, not empty.
 
-Call-time definitions (pulled from the PDF footer):
+## Row meanings (per the scheduling coordinator's PDF)
 
-- **1ST call**: All floor calls from General Surgery teaching services,
-  Thoracic, Vascular, and Trauma Services.
-- **2ND call**: Consult to ER, ICU, SICC, and RR. 2ND gets notified of
-  all ER admissions.
-- **SNR call**: Consult backup for 1ST and 2ND.
-- **Weekday call**: 1700 → 0600 next day (0700 if it's a Friday call).
-- **Weekend call**: 0700 → 0700 next day (0700 if it's a Sunday call).
-- **STU-A** (student day): 0600–1800. Rounds with team, then follows
-  the intern or 2-year on call.
-- **STU-B** (student night): 1800–0600 overnight. Follows the intern or
-  2-year on call.
+Under each date there are four rows of names:
+
+- **Row 1 — `intern`**: intern call. Takes floor calls from General
+  Surgery teaching services, Thoracic, Vascular, and Trauma.
+- **Row 2 — `intermediate`**: intermediate / night-float call.
+  Equivalent to CMC's night-float role. Takes consults to the ER, ICU,
+  SICC, RR, and gets notified of every ER admission.
+- **Row 3 — `chief`**: chief call. Senior backup for intern and
+  intermediate. Chiefs rotate in from other programs — the name on the
+  schedule is authoritative even if it's not on the published Advocate
+  General Surgery residents list.
+- **Row 4 — `vacations`**: residents on vacation that day.
+
+## Call hours (LGH-specific)
+
+Different from CMC:
+
+- **Monday–Thursday**: 1700 → 0600 next day
+- **Friday**: 1700 Fri → 0700 Sat
+- **Saturday**: 1000 Sat → 0700 Sun
+- **Sunday**: 1000 Sun → 0600 Mon
+
+These hours apply to the on-call window only — separate from whatever
+normal service / rounding hours the resident owes during the day.
 
 ## Updating the LGH schedule manually
 
@@ -74,23 +87,22 @@ When a new PDF arrives by email:
 
 1. Edit `lgh/call-schedule.json`
 2. Bump `updated_at` to today
-3. Update `source` with the new date if relevant
-4. Replace or append entries in `schedule[]` (see file shape above)
+3. Update `source` with the new email date
+4. Replace or append entries in `schedule[]`
 5. `git commit && git push` to `main`
 6. The app picks up the change within a few minutes (raw GH CDN)
 
-If you'd rather send me the PDF and have me regenerate, that works too
-— drop the file and tag me in the DutyTracker coordination thread.
+If you'd rather send me the PDF and have me regenerate, drop the file
+in the DutyTracker coordination thread and I'll do it.
 
 ## Automated flow (future)
 
 A Claude-scheduled agent in the **Content Pipeline thread** will:
 1. Poll Gmail every ~4 hours for the Lutheran scheduling email
 2. Download the PDF / DOCX attachment
-3. Parse resident-call assignments out of the table
+3. Parse call assignments out of the table
 4. Write the parsed schedule back into `lgh/call-schedule.json` in this repo
 5. Commit + push
 
-That agent hasn't been built yet. When it lands, human manual edits
-still work — commit on top, the agent will respect whatever's on
-`main` as the latest truth.
+When that agent lands, human manual edits still work — commits on top
+of the bot's output will be respected as the latest truth.
