@@ -1,0 +1,52 @@
+{
+  "hospital": "LGH",
+  "hospital_name": "Lutheran General Hospital",
+  "program": "General Surgery",
+  "updated_at": "2026-04-22",
+  "source": "Scheduling coordinator email, PDF dated 4.22.2026",
+  "call_definitions": {
+    "first_call": "Floor calls from General Surgery teaching services, Thoracic, Vascular, and Trauma Services.",
+    "second_call": "Consult to the ER, ICU, SICC, and RR. 2ND call will be notified of all ER admissions.",
+    "snr_call": "Consult backup for 1ST and 2ND call.",
+    "student_day": "STU-A: 0600–1800. Student rounds with their assigned team then follows the intern or 2-year on call.",
+    "student_night": "STU-B: Overnight call 1800–0600 the next day. Student follows the intern or 2-year on call.",
+    "weekday_call_hours": "1700 → 0600 next day (ends 0700 if it is a Friday call).",
+    "weekend_call_hours": "0700 → 0700 next day (ends 0700 if it is a Sunday call)."
+  },
+  "schedule": [
+    { "date": "2026-04-01", "dow": "Wed", "first_call": "Hoodfar",   "second_call": "Gokhale",  "snr_call": "Asha",       "students": [] },
+    { "date": "2026-04-02", "dow": "Thu", "first_call": "Hoodfar",   "second_call": "Gokhale",  "snr_call": "Obiakor",    "students": [] },
+    { "date": "2026-04-03", "dow": "Fri", "first_call": "Lenihan",   "second_call": "Shabeeb",  "snr_call": "Smith",      "students": [] },
+    { "date": "2026-04-04", "dow": "Sat", "first_call": "Haley",     "second_call": "Alrashid", "snr_call": "Rogozinski", "students": ["Mckay"] },
+
+    { "date": "2026-04-05", "dow": "Sun", "first_call": "Hoodfar",   "second_call": "Gokhale",  "snr_call": "Smith",      "students": ["Rogozinski"] },
+    { "date": "2026-04-06", "dow": "Mon", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Rogozinski", "students": ["Sandoval", "Asha", "Abivaram"] },
+    { "date": "2026-04-07", "dow": "Tue", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Smith",      "students": ["Sandoval", "Asha", "Abivaram"] },
+    { "date": "2026-04-08", "dow": "Wed", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Obiakor",    "students": ["Sandoval", "Asha", "Abivaram"] },
+    { "date": "2026-04-09", "dow": "Thu", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Rogozinski", "students": ["Smith", "Sandoval", "Asha", "Abivaram"] },
+    { "date": "2026-04-10", "dow": "Fri", "first_call": "Enrietto",  "second_call": "Kerber",   "snr_call": "Guastella",  "students": ["Smith", "Sandoval", "Asha", "Abivaram"] },
+    { "date": "2026-04-11", "dow": "Sat", "first_call": "Sun",       "second_call": "Mckay",    "snr_call": "Obiakor",    "students": ["Smith", "Sandoval", "Asha", "Abivaram"] },
+
+    { "date": "2026-04-12", "dow": "Sun", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Guastella",  "students": ["Smith", "Sandoval", "Asha", "Abivaram"] },
+    { "date": "2026-04-13", "dow": "Mon", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Asha",       "students": ["Kerber", "Rogozinski"] },
+    { "date": "2026-04-14", "dow": "Tue", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Obiakor",    "students": ["Kerber", "Rogozinski"] },
+    { "date": "2026-04-15", "dow": "Wed", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Guastella",  "students": ["Kerber", "Rogozinski"] },
+    { "date": "2026-04-16", "dow": "Thu", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Asha",       "students": ["Kerber", "Rogozinski"] },
+    { "date": "2026-04-17", "dow": "Fri", "first_call": "Sun",       "second_call": "Shabeeb",  "snr_call": "Smith",      "students": ["Kerber", "Rogozinski"] },
+    { "date": "2026-04-18", "dow": "Sat", "first_call": "Cardwell",  "second_call": "Mark",     "snr_call": "Obiakor",    "students": ["Kerber", "Enrietto", "Rogozinski"] },
+
+    { "date": "2026-04-19", "dow": "Sun", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Smith",      "students": ["Kerber", "Rogozinski"] },
+    { "date": "2026-04-20", "dow": "Mon", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Sandoval",   "students": ["Sun", "Mckay"] },
+    { "date": "2026-04-21", "dow": "Tue", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Rogozinski", "students": ["Sun", "Mckay"] },
+    { "date": "2026-04-22", "dow": "Wed", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Smith",      "students": ["Sun", "Mckay"] },
+    { "date": "2026-04-23", "dow": "Thu", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Rogozinski", "students": ["Sun", "Lenihan", "Mckay"] },
+    { "date": "2026-04-24", "dow": "Fri", "first_call": "Cardwell",  "second_call": "Kerber",   "snr_call": "Obiakor",    "students": ["Sun", "Lenihan", "Mckay"] },
+    { "date": "2026-04-25", "dow": "Sat", "first_call": "Enrietto",  "second_call": "Abivaram", "snr_call": "Sandoval",   "students": ["Sun", "Lenihan", "Mckay"] },
+
+    { "date": "2026-04-26", "dow": "Sun", "first_call": "Shabeeb",   "second_call": "Kerber",   "snr_call": "Rogozinski", "students": ["Sun", "Lenihan", "Mckay"] },
+    { "date": "2026-04-27", "dow": "Mon", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Sandoval",   "students": ["Smith", "Obiakor", "Cardwell", "Lenihan"] },
+    { "date": "2026-04-28", "dow": "Tue", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Guastella",  "students": ["Smith", "Obiakor", "Cardwell", "Lenihan"] },
+    { "date": "2026-04-29", "dow": "Wed", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Sandoval",   "students": ["Smith", "Obiakor", "Cardwell", "Lenihan"] },
+    { "date": "2026-04-30", "dow": "Thu", "first_call": "White",     "second_call": "Gokhale",  "snr_call": "Asha",       "students": ["Smith", "Obiakor", "Cardwell"] }
+  ]
+}
