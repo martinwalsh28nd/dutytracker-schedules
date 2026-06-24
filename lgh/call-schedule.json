@@ -1,55 +1,3010 @@
 {
   "hospital": "LGH",
-  "hospital_name": "Lutheran General Hospital",
-  "program": "General Surgery",
-  "updated_at": "2026-04-22",
-  "source": "Scheduling coordinator email, PDF dated 4.22.2026",
-  "call_definitions": {
-    "intern_call": "Row 1 under each date. Takes floor calls from General Surgery teaching services, Thoracic, Vascular, and Trauma.",
-    "intermediate_call": "Row 2 under each date. Night float role (equivalent to CMC's intermediate/NF). Takes consults to ER, ICU, SICC, and RR. Notified of all ER admissions.",
-    "chief_call": "Row 3 under each date. Senior backup consult for intern and intermediate. May be cross-program — chiefs listed by whoever is on the schedule.",
-    "vacations": "Row 4 (highlighted). Residents on vacation for that date.",
-    "call_hours": {
-      "monday_thursday": "1700 → 0600 next day",
-      "friday":          "1700 Fri → 0700 Sat",
-      "saturday":        "1000 Sat → 0700 Sun",
-      "sunday":          "1000 Sun → 0600 Mon"
-    }
-  },
+  "updated_at": "2026-06-24",
   "schedule": [
-    { "date": "2026-04-01", "dow": "Wed", "intern": "Hoodfar",   "intermediate": "Gokhale",  "chief": "Asha",       "vacations": [] },
-    { "date": "2026-04-02", "dow": "Thu", "intern": "Hoodfar",   "intermediate": "Gokhale",  "chief": "Obiakor",    "vacations": [] },
-    { "date": "2026-04-03", "dow": "Fri", "intern": "Lenihan",   "intermediate": "Shabeeb",  "chief": "Smith",      "vacations": [] },
-    { "date": "2026-04-04", "dow": "Sat", "intern": "Haley",     "intermediate": "Alrashid", "chief": "Rogozinski", "vacations": ["Mckay"] },
-
-    { "date": "2026-04-05", "dow": "Sun", "intern": "Hoodfar",   "intermediate": "Gokhale",  "chief": "Smith",      "vacations": ["Rogozinski"] },
-    { "date": "2026-04-06", "dow": "Mon", "intern": "White",     "intermediate": "Gokhale",  "chief": "Rogozinski", "vacations": ["Sandoval", "Asha", "Abivaram"] },
-    { "date": "2026-04-07", "dow": "Tue", "intern": "White",     "intermediate": "Gokhale",  "chief": "Smith",      "vacations": ["Sandoval", "Asha", "Abivaram"] },
-    { "date": "2026-04-08", "dow": "Wed", "intern": "White",     "intermediate": "Gokhale",  "chief": "Obiakor",    "vacations": ["Sandoval", "Asha", "Abivaram"] },
-    { "date": "2026-04-09", "dow": "Thu", "intern": "White",     "intermediate": "Gokhale",  "chief": "Rogozinski", "vacations": ["Smith", "Sandoval", "Asha", "Abivaram"] },
-    { "date": "2026-04-10", "dow": "Fri", "intern": "Enrietto",  "intermediate": "Kerber",   "chief": "Guastella",  "vacations": ["Smith", "Sandoval", "Asha", "Abivaram"] },
-    { "date": "2026-04-11", "dow": "Sat", "intern": "Sun",       "intermediate": "Mckay",    "chief": "Obiakor",    "vacations": ["Smith", "Sandoval", "Asha", "Abivaram"] },
-
-    { "date": "2026-04-12", "dow": "Sun", "intern": "White",     "intermediate": "Gokhale",  "chief": "Guastella",  "vacations": ["Smith", "Sandoval", "Asha", "Abivaram"] },
-    { "date": "2026-04-13", "dow": "Mon", "intern": "White",     "intermediate": "Gokhale",  "chief": "Asha",       "vacations": ["Kerber", "Rogozinski"] },
-    { "date": "2026-04-14", "dow": "Tue", "intern": "White",     "intermediate": "Gokhale",  "chief": "Obiakor",    "vacations": ["Kerber", "Rogozinski"] },
-    { "date": "2026-04-15", "dow": "Wed", "intern": "White",     "intermediate": "Gokhale",  "chief": "Guastella",  "vacations": ["Kerber", "Rogozinski"] },
-    { "date": "2026-04-16", "dow": "Thu", "intern": "White",     "intermediate": "Gokhale",  "chief": "Asha",       "vacations": ["Kerber", "Rogozinski"] },
-    { "date": "2026-04-17", "dow": "Fri", "intern": "Sun",       "intermediate": "Shabeeb",  "chief": "Smith",      "vacations": ["Kerber", "Rogozinski"] },
-    { "date": "2026-04-18", "dow": "Sat", "intern": "Cardwell",  "intermediate": "Mark",     "chief": "Obiakor",    "vacations": ["Kerber", "Enrietto", "Rogozinski"] },
-
-    { "date": "2026-04-19", "dow": "Sun", "intern": "White",     "intermediate": "Gokhale",  "chief": "Smith",      "vacations": ["Kerber", "Rogozinski"] },
-    { "date": "2026-04-20", "dow": "Mon", "intern": "White",     "intermediate": "Gokhale",  "chief": "Sandoval",   "vacations": ["Sun", "Mckay"] },
-    { "date": "2026-04-21", "dow": "Tue", "intern": "White",     "intermediate": "Gokhale",  "chief": "Rogozinski", "vacations": ["Sun", "Mckay"] },
-    { "date": "2026-04-22", "dow": "Wed", "intern": "White",     "intermediate": "Gokhale",  "chief": "Smith",      "vacations": ["Sun", "Mckay"] },
-    { "date": "2026-04-23", "dow": "Thu", "intern": "White",     "intermediate": "Gokhale",  "chief": "Rogozinski", "vacations": ["Sun", "Lenihan", "Mckay"] },
-    { "date": "2026-04-24", "dow": "Fri", "intern": "Cardwell",  "intermediate": "Kerber",   "chief": "Obiakor",    "vacations": ["Sun", "Lenihan", "Mckay"] },
-    { "date": "2026-04-25", "dow": "Sat", "intern": "Enrietto",  "intermediate": "Abivaram", "chief": "Sandoval",   "vacations": ["Sun", "Lenihan", "Mckay"] },
-
-    { "date": "2026-04-26", "dow": "Sun", "intern": "Shabeeb",   "intermediate": "Kerber",   "chief": "Rogozinski", "vacations": ["Sun", "Lenihan", "Mckay"] },
-    { "date": "2026-04-27", "dow": "Mon", "intern": "White",     "intermediate": "Gokhale",  "chief": "Sandoval",   "vacations": ["Smith", "Obiakor", "Cardwell", "Lenihan"] },
-    { "date": "2026-04-28", "dow": "Tue", "intern": "White",     "intermediate": "Gokhale",  "chief": "Guastella",  "vacations": ["Smith", "Obiakor", "Cardwell", "Lenihan"] },
-    { "date": "2026-04-29", "dow": "Wed", "intern": "White",     "intermediate": "Gokhale",  "chief": "Sandoval",   "vacations": ["Smith", "Obiakor", "Cardwell", "Lenihan"] },
-    { "date": "2026-04-30", "dow": "Thu", "intern": "White",     "intermediate": "Gokhale",  "chief": "Asha",       "vacations": ["Smith", "Obiakor", "Cardwell"] }
+    {
+      "date": "2026-06-25",
+      "dow": "Thu",
+      "intern": "Enrietto (NF shift)",
+      "intermediate": "Adams",
+      "chief": "Pekarek",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-26",
+      "dow": "Fri",
+      "intern": "Enrietto (NF shift)",
+      "intermediate": "Shabeeb",
+      "chief": "Sumra",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-27",
+      "dow": "Sat",
+      "intern": "Sun",
+      "intermediate": "Gokhale",
+      "chief": "Walsh",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-28",
+      "dow": "Sun",
+      "intern": "Lenihan (NF shift)",
+      "intermediate": "Adams",
+      "chief": "Alshiekh",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-29",
+      "dow": "Mon",
+      "intern": "Lenihan (NF shift)",
+      "intermediate": "Adams",
+      "chief": "Obiakor",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-30",
+      "dow": "Tue",
+      "intern": "Lenihan (NF shift)",
+      "intermediate": "Adams",
+      "chief": "Sumra",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-01",
+      "dow": "Wed",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Pekarek",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-02",
+      "dow": "Thu",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Walsh",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-03",
+      "dow": "Fri",
+      "intern": "Negron",
+      "intermediate": "Enrietto",
+      "chief": "Sumra",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-04",
+      "dow": "Sat",
+      "intern": "Seo",
+      "intermediate": "Lenihan",
+      "chief": "Alshiekh",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-05",
+      "dow": "Sun",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Obiakor",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-06",
+      "dow": "Mon",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Walsh",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-07",
+      "dow": "Tue",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Sumra",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "dow": "Wed",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Obiakor",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "dow": "Thu",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Alshiekh",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "dow": "Fri",
+      "intern": "Rodriguez",
+      "intermediate": "Taylor",
+      "chief": "Walsh",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "dow": "Sat",
+      "intern": "Ngauv",
+      "intermediate": "Lecointe",
+      "chief": "Sumra",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "dow": "Sun",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Walsh",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "dow": "Mon",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Alshiekh",
+      "vacations": [
+        "Pekarek"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "dow": "Tue",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Sumra",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-15",
+      "dow": "Wed",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Walsh",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-16",
+      "dow": "Thu",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Pekarek",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-17",
+      "dow": "Fri",
+      "intern": "Seo",
+      "intermediate": "Kerber",
+      "chief": "Obiakor",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-18",
+      "dow": "Sat",
+      "intern": "Negron",
+      "intermediate": "Gokhale",
+      "chief": "Alshiekh",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-19",
+      "dow": "Sun",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Sumra",
+      "vacations": []
+    },
+    {
+      "date": "2026-07-20",
+      "dow": "Mon",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Alshiekh",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "dow": "Tue",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Pekarek",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "dow": "Wed",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Obiakor",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "dow": "Thu",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Walsh",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "dow": "Fri",
+      "intern": "Ngauv",
+      "intermediate": "Shabeeb",
+      "chief": "Pekarek",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "dow": "Sat",
+      "intern": "Rodriguez",
+      "intermediate": "Enrietto",
+      "chief": "Mark",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "dow": "Sun",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Walsh",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "dow": "Mon",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Pekarek",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "dow": "Tue",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Sumra",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "dow": "Wed",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Mark",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "dow": "Thu",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Obiakor",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "dow": "Fri",
+      "intern": "Negron",
+      "intermediate": "Lecointe",
+      "chief": "Mark",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "dow": "Sat",
+      "intern": "Seo",
+      "intermediate": "Lenihan",
+      "chief": "Obiakor",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "dow": "Sun",
+      "intern": "Hoodfar",
+      "intermediate": "Adams",
+      "chief": "Pekarek",
+      "vacations": [
+        "Gokhale"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "dow": "Mon",
+      "intern": "Rosson",
+      "intermediate": "Adams",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "dow": "Tue",
+      "intern": "Rosson",
+      "intermediate": "Adams",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "dow": "Wed",
+      "intern": "Rosson",
+      "intermediate": "Adams",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "dow": "Thu",
+      "intern": "Rosson",
+      "intermediate": "Adams",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "dow": "Fri",
+      "intern": "Mehdiyar",
+      "intermediate": "Shabeeb",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "dow": "Sat",
+      "intern": "Ferozuddin",
+      "intermediate": "Taylor",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "dow": "Sun",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Kerber",
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "dow": "Mon",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "dow": "Tue",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "dow": "Wed",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "dow": "Thu",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "dow": "Fri",
+      "intern": "Khan",
+      "intermediate": "Gokhale",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "dow": "Sat",
+      "intern": "Engelhardt",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "dow": "Sun",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Enrietto",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "dow": "Mon",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Adams"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "dow": "Tue",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Adams"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "dow": "Wed",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Adams",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "dow": "Thu",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Adams",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "dow": "Fri",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Adams",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "dow": "Sat",
+      "intern": "Mehdiyar",
+      "intermediate": "",
+      "chief": "",
+      "vacations": [
+        "Adams",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "dow": "Sun",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Adams",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "dow": "Mon",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Obiakor",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "dow": "Tue",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Obiakor",
+        "Tutaj"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "dow": "Wed",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Obiakor"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "dow": "Thu",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Obiakor"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "dow": "Fri",
+      "intern": "Engelhardt",
+      "intermediate": "",
+      "chief": "",
+      "vacations": [
+        "Obiakor"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "dow": "Sat",
+      "intern": "Khan",
+      "intermediate": "",
+      "chief": "",
+      "vacations": [
+        "Obiakor"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "dow": "Sun",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Obiakor"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "dow": "Mon",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "dow": "Tue",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "Gross",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "dow": "Wed",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "Rogozinski",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "dow": "Thu",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "Pekarek",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Mark",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Tutaj",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "dow": "Sun",
+      "intern": "Rosson",
+      "intermediate": "Cardwell",
+      "chief": "Obiakor",
+      "vacations": [
+        "Khan"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "dow": "Mon",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "Gross",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "dow": "Tue",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "Rogozinski",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "dow": "Wed",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "Tutaj",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "dow": "Thu",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Gross",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Rogozinski",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "dow": "Sun",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "Obiakor",
+      "vacations": [
+        "Pekarek",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "dow": "Mon",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Mark",
+        "Sun"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "dow": "Tue",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Mark",
+        "Sun"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "dow": "Wed",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Mark",
+        "Sun"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "dow": "Thu",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Mark",
+        "Sun"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "dow": "Sun",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Mark",
+        "Sun"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "dow": "Mon",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Myint",
+        "Lenihan"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "dow": "Tue",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Myint",
+        "Lenihan"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "dow": "Wed",
+      "intern": "Ngauv",
+      "intermediate": "Cardwell",
+      "chief": "",
+      "vacations": [
+        "Myint",
+        "Lenihan"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "dow": "Thu",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Myint",
+        "Lenihan"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "dow": "Sun",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Myint",
+        "Lenihan"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "dow": "Mon",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Rogozinski"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "dow": "Tue",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Rogozinski"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "dow": "Wed",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Rogozinski"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "dow": "Thu",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Rogozinski"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "dow": "Sun",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Rogozinski",
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "dow": "Mon",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "dow": "Tue",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Shabeeb",
+        "Ferozuddin"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "dow": "Wed",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Shabeeb",
+        "Ferozuddin"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "dow": "Thu",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Shabeeb",
+        "Ferozuddin"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Smith",
+      "vacations": [
+        "Shabeeb",
+        "Ferozuddin"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "dow": "Sun",
+      "intern": "Ngauv",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Ferozuddin"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "dow": "Mon",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "Smith",
+      "vacations": [
+        "Kerber",
+        "Ferozuddin"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "dow": "Tue",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "dow": "Wed",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "dow": "Thu",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "dow": "Sun",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "dow": "Mon",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2026-10-20",
+      "dow": "Tue",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-10-21",
+      "dow": "Wed",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-10-22",
+      "dow": "Thu",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-10-25",
+      "dow": "Sun",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-10-26",
+      "dow": "Mon",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "Smith",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "dow": "Tue",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "dow": "Wed",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "dow": "Sun",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-11-06",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2026-11-08",
+      "dow": "Sun",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "",
+      "vacations": [
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "dow": "Mon",
+      "intern": "Mehdiyar",
+      "intermediate": "Sun",
+      "chief": "Smith",
+      "vacations": [
+        "Rogozinski",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "dow": "Tue",
+      "intern": "Mehdiyar",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Rogozinski",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "dow": "Wed",
+      "intern": "Mehdiyar",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Rogozinski",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "intern": "Mehdiyar",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Rogozinski",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "intern": "Mehdiyar",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Rogozinski"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "Smith",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Qureshi"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "Smith",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "intern": "Rodriguez****",
+      "intermediate": "White****HOLIDAY",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "dow": "Sun",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "dow": "Mon",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "Smith",
+      "vacations": [
+        "Russell"
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "dow": "Tue",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-12-02",
+      "dow": "Wed",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-12-03",
+      "dow": "Thu",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2026-12-06",
+      "dow": "Sun",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2026-12-07",
+      "dow": "Mon",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Sumra",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "dow": "Tue",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Sumra",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "dow": "Wed",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Sumra",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "dow": "Thu",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Sumra",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Smith",
+      "vacations": [
+        "Sumra",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-12-13",
+      "dow": "Sun",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Sumra",
+        "Mehdiyar"
+      ]
+    },
+    {
+      "date": "2026-12-14",
+      "dow": "Mon",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Seo"
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "dow": "Tue",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Seo"
+      ]
+    },
+    {
+      "date": "2026-12-16",
+      "dow": "Wed",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Seo"
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "dow": "Thu",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "Smith",
+      "vacations": [
+        "Seo"
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "dow": "Sun",
+      "intern": "Rodriguez",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Seo"
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "dow": "Mon",
+      "intern": "Seo",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-22",
+      "dow": "Tue",
+      "intern": "Seo",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "dow": "Wed",
+      "intern": "Seo",
+      "intermediate": "White",
+      "chief": "Smith",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "dow": "Thu",
+      "intern": "Seo",
+      "intermediate": "White **HOLIDAY",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-26",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "Russell",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "dow": "Sun",
+      "intern": "Seo",
+      "intermediate": "White",
+      "chief": "",
+      "vacations": [
+        "Pekarek",
+        "Hoodfar"
+      ]
+    },
+    {
+      "date": "2026-12-28",
+      "dow": "Mon",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "Smith",
+      "vacations": [
+        "Obiakor",
+        "Gokhale",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "dow": "Tue",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Obiakor",
+        "Gokhale",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "dow": "Wed",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Obiakor",
+        "Gokhale",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "dow": "Thu",
+      "intern": "Seo",
+      "intermediate": "Enrietto**HOLIDAY",
+      "chief": "MacKay Forton",
+      "vacations": [
+        "Obiakor",
+        "Gokhale",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-01-01",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "Gokhale",
+      "chief": "",
+      "vacations": [
+        "Obiakor",
+        "Gokhale",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-01-03",
+      "dow": "Sun",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Obiakor",
+        "Gokhale",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-01-04",
+      "dow": "Mon",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-05",
+      "dow": "Tue",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-06",
+      "dow": "Wed",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-07",
+      "dow": "Thu",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-09",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-10",
+      "dow": "Sun",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-11",
+      "dow": "Mon",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-12",
+      "dow": "Tue",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-13",
+      "dow": "Wed",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-14",
+      "dow": "Thu",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Smith"
+      ]
+    },
+    {
+      "date": "2027-01-17",
+      "dow": "Sun",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Smith"
+      ]
+    },
+    {
+      "date": "2027-01-18",
+      "dow": "Mon",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "Myint"
+      ]
+    },
+    {
+      "date": "2027-01-19",
+      "dow": "Tue",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "Myint"
+      ]
+    },
+    {
+      "date": "2027-01-20",
+      "dow": "Wed",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "Kersting",
+        "Myint"
+      ]
+    },
+    {
+      "date": "2027-01-21",
+      "dow": "Thu",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Walsh",
+        "Myint"
+      ]
+    },
+    {
+      "date": "2027-01-24",
+      "dow": "Sun",
+      "intern": "Seo",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Walsh",
+        "Myint"
+      ]
+    },
+    {
+      "date": "2027-01-25",
+      "dow": "Mon",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-26",
+      "dow": "Tue",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-27",
+      "dow": "Wed",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-28",
+      "dow": "Thu",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-01-31",
+      "dow": "Sun",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-02-01",
+      "dow": "Mon",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2027-02-02",
+      "dow": "Tue",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2027-02-03",
+      "dow": "Wed",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2027-02-04",
+      "dow": "Thu",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2027-02-05",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Smith",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2027-02-07",
+      "dow": "Sun",
+      "intern": "Ferozuddin",
+      "intermediate": "Enrietto",
+      "chief": "",
+      "vacations": [
+        "Taylor"
+      ]
+    },
+    {
+      "date": "2027-02-08",
+      "dow": "Mon",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-02-09",
+      "dow": "Tue",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-02-10",
+      "dow": "Wed",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-02-11",
+      "dow": "Thu",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-02-14",
+      "dow": "Sun",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-02-15",
+      "dow": "Mon",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "MacKay Forton"
+      ]
+    },
+    {
+      "date": "2027-02-16",
+      "dow": "Tue",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "MacKay Forton"
+      ]
+    },
+    {
+      "date": "2027-02-17",
+      "dow": "Wed",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "MacKay Forton"
+      ]
+    },
+    {
+      "date": "2027-02-18",
+      "dow": "Thu",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "MacKay Forton"
+      ]
+    },
+    {
+      "date": "2027-02-21",
+      "dow": "Sun",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "MacKay Forton"
+      ]
+    },
+    {
+      "date": "2027-02-22",
+      "dow": "Mon",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Sumra"
+      ]
+    },
+    {
+      "date": "2027-02-23",
+      "dow": "Tue",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Sumra"
+      ]
+    },
+    {
+      "date": "2027-02-24",
+      "dow": "Wed",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "Sumra"
+      ]
+    },
+    {
+      "date": "2027-02-25",
+      "dow": "Thu",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Sumra"
+      ]
+    },
+    {
+      "date": "2027-02-28",
+      "dow": "Sun",
+      "intern": "Ferozuddin",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Sumra"
+      ]
+    },
+    {
+      "date": "2027-03-01",
+      "dow": "Mon",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2027-03-02",
+      "dow": "Tue",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2027-03-03",
+      "dow": "Wed",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2027-03-04",
+      "dow": "Thu",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2027-03-07",
+      "dow": "Sun",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Engelhardt"
+      ]
+    },
+    {
+      "date": "2027-03-08",
+      "dow": "Mon",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Ngauv"
+      ]
+    },
+    {
+      "date": "2027-03-09",
+      "dow": "Tue",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Ngauv"
+      ]
+    },
+    {
+      "date": "2027-03-10",
+      "dow": "Wed",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Ngauv"
+      ]
+    },
+    {
+      "date": "2027-03-11",
+      "dow": "Thu",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Ngauv"
+      ]
+    },
+    {
+      "date": "2027-03-13",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "",
+      "chief": "Smith",
+      "vacations": [
+        "Ngauv"
+      ]
+    },
+    {
+      "date": "2027-03-14",
+      "dow": "Sun",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Ngauv"
+      ]
+    },
+    {
+      "date": "2027-03-15",
+      "dow": "Mon",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Lecointe",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-03-16",
+      "dow": "Tue",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Lecointe",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-03-17",
+      "dow": "Wed",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "Lecointe",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-03-18",
+      "dow": "Thu",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Lecointe",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-03-21",
+      "dow": "Sun",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Lecointe",
+        "Negron"
+      ]
+    },
+    {
+      "date": "2027-03-22",
+      "dow": "Mon",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Gross"
+      ]
+    },
+    {
+      "date": "2027-03-23",
+      "dow": "Tue",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Gross"
+      ]
+    },
+    {
+      "date": "2027-03-24",
+      "dow": "Wed",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Gross"
+      ]
+    },
+    {
+      "date": "2027-03-25",
+      "dow": "Thu",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "Smith",
+      "vacations": [
+        "Gross"
+      ]
+    },
+    {
+      "date": "2027-03-28",
+      "dow": "Sun",
+      "intern": "Myint",
+      "intermediate": "Salim",
+      "chief": "",
+      "vacations": [
+        "Gross"
+      ]
+    },
+    {
+      "date": "2027-03-29",
+      "dow": "Mon",
+      "intern": "Myint",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "LaVigne"
+      ]
+    },
+    {
+      "date": "2027-03-30",
+      "dow": "Tue",
+      "intern": "Myint",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "LaVigne"
+      ]
+    },
+    {
+      "date": "2027-03-31",
+      "dow": "Wed",
+      "intern": "Myint",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "LaVigne"
+      ]
+    },
+    {
+      "date": "2027-04-01",
+      "dow": "Thu",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "LaVigne"
+      ]
+    },
+    {
+      "date": "2027-04-04",
+      "dow": "Sun",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Smith",
+        "LaVigne"
+      ]
+    },
+    {
+      "date": "2027-04-05",
+      "dow": "Mon",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2027-04-06",
+      "dow": "Tue",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Chandrakumaran",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2027-04-07",
+      "dow": "Wed",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "Smith",
+      "vacations": [
+        "Chandrakumaran",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2027-04-08",
+      "dow": "Thu",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Chandrakumaran",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2027-04-11",
+      "dow": "Sun",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "Smith",
+      "vacations": [
+        "Chandrakumaran",
+        "Rosson"
+      ]
+    },
+    {
+      "date": "2027-04-12",
+      "dow": "Mon",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Chandrakumaran"
+      ]
+    },
+    {
+      "date": "2027-04-13",
+      "dow": "Tue",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "Smith",
+      "vacations": []
+    },
+    {
+      "date": "2027-04-14",
+      "dow": "Wed",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-04-15",
+      "dow": "Thu",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-04-18",
+      "dow": "Sun",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-04-19",
+      "dow": "Mon",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "Smith",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2027-04-20",
+      "dow": "Tue",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2027-04-21",
+      "dow": "Wed",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2027-04-22",
+      "dow": "Thu",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2027-04-25",
+      "dow": "Sun",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Kerber"
+      ]
+    },
+    {
+      "date": "2027-04-26",
+      "dow": "Mon",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Tutaj",
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-04-27",
+      "dow": "Tue",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Tutaj",
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-04-28",
+      "dow": "Wed",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Tutaj",
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-04-29",
+      "dow": "Thu",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Tutaj",
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-05-02",
+      "dow": "Sun",
+      "intern": "Engelhardt",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Tutaj",
+        "Keleher"
+      ]
+    },
+    {
+      "date": "2027-05-03",
+      "dow": "Mon",
+      "intern": "Negron",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-05-04",
+      "dow": "Tue",
+      "intern": "Negron",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-05-05",
+      "dow": "Wed",
+      "intern": "Negron",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Alshiekh"
+      ]
+    },
+    {
+      "date": "2027-05-06",
+      "dow": "Thu",
+      "intern": "Negron",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Alshiekh"
+      ]
+    },
+    {
+      "date": "2027-05-09",
+      "dow": "Sun",
+      "intern": "Negron",
+      "intermediate": "Lecointe",
+      "chief": "",
+      "vacations": [
+        "Alshiekh"
+      ]
+    },
+    {
+      "date": "2027-05-10",
+      "dow": "Mon",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Alshiekh"
+      ]
+    },
+    {
+      "date": "2027-05-11",
+      "dow": "Tue",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Alshiekh"
+      ]
+    },
+    {
+      "date": "2027-05-12",
+      "dow": "Wed",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-05-13",
+      "dow": "Thu",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-05-16",
+      "dow": "Sun",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2027-05-17",
+      "dow": "Mon",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "LaVigne",
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2027-05-18",
+      "dow": "Tue",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "LaVigne",
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2027-05-19",
+      "dow": "Wed",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "LaVigne",
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2027-05-20",
+      "dow": "Thu",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "LaVigne",
+        "Shabeeb"
+      ]
+    },
+    {
+      "date": "2027-05-23",
+      "dow": "Sun",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "LaVigne"
+      ]
+    },
+    {
+      "date": "2027-05-24",
+      "dow": "Mon",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2027-05-25",
+      "dow": "Tue",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2027-05-26",
+      "dow": "Wed",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2027-05-27",
+      "dow": "Thu",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2027-05-30",
+      "dow": "Sun",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Qureshi",
+        "Russell"
+      ]
+    },
+    {
+      "date": "2027-05-31",
+      "dow": "Mon",
+      "intern": "Negron",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Cardwell"
+      ]
+    },
+    {
+      "date": "2027-06-01",
+      "dow": "Tue",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Cardwell"
+      ]
+    },
+    {
+      "date": "2027-06-02",
+      "dow": "Wed",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Cardwell"
+      ]
+    },
+    {
+      "date": "2027-06-03",
+      "dow": "Thu",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Cardwell"
+      ]
+    },
+    {
+      "date": "2027-06-06",
+      "dow": "Sun",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Cardwell"
+      ]
+    },
+    {
+      "date": "2027-06-07",
+      "dow": "Mon",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "White"
+      ]
+    },
+    {
+      "date": "2027-06-08",
+      "dow": "Tue",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "White"
+      ]
+    },
+    {
+      "date": "2027-06-09",
+      "dow": "Wed",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "White"
+      ]
+    },
+    {
+      "date": "2027-06-10",
+      "dow": "Thu",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "White"
+      ]
+    },
+    {
+      "date": "2027-06-13",
+      "dow": "Sun",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "White"
+      ]
+    },
+    {
+      "date": "2027-06-14",
+      "dow": "Mon",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2027-06-15",
+      "dow": "Tue",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2027-06-16",
+      "dow": "Wed",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2027-06-17",
+      "dow": "Thu",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2027-06-20",
+      "dow": "Sun",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Salim"
+      ]
+    },
+    {
+      "date": "2027-06-21",
+      "dow": "Mon",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-06-22",
+      "dow": "Tue",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-06-23",
+      "dow": "Wed",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": []
+    },
+    {
+      "date": "2027-06-24",
+      "dow": "Thu",
+      "intern": "Khan",
+      "intermediate": "Lenihan",
+      "chief": "",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    },
+    {
+      "date": "2027-06-25",
+      "dow": "Fri",
+      "intern": "",
+      "intermediate": "NEW YEAR",
+      "chief": "NEW YEAR",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    },
+    {
+      "date": "2027-06-26",
+      "dow": "Sat",
+      "intern": "",
+      "intermediate": "NEW YEAR",
+      "chief": "NEW YEAR",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    },
+    {
+      "date": "2027-06-27",
+      "dow": "Sun",
+      "intern": "Khan",
+      "intermediate": "NEW YEAR",
+      "chief": "NEW YEAR",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    },
+    {
+      "date": "2027-06-28",
+      "dow": "Mon",
+      "intern": "Khan",
+      "intermediate": "NEW YEAR",
+      "chief": "NEW YEAR",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    },
+    {
+      "date": "2027-06-29",
+      "dow": "Tue",
+      "intern": "Khan",
+      "intermediate": "NEW YEAR",
+      "chief": "NEW YEAR",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    },
+    {
+      "date": "2027-06-30",
+      "dow": "Wed",
+      "intern": "Khan",
+      "intermediate": "NEW YEAR",
+      "chief": "NEW YEAR",
+      "vacations": [
+        "Myint",
+        "Rodriguez"
+      ]
+    }
   ]
 }
