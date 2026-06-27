@@ -1,7 +1,55 @@
 {
   "hospital": "CMC",
-  "updated_at": "2026-06-24",
+  "updated_at": "2026-06-27",
   "schedule": [
+    {
+      "date": "2026-06-25",
+      "dow": "Thu",
+      "intern": "Cardwell (CALL)",
+      "intermediate": "LaVigne",
+      "chief": "Qureshi (RED)",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-26",
+      "dow": "Fri",
+      "intern": "White (NIGHT ONLY)",
+      "intermediate": "Keleher",
+      "chief": "Chandrakumaran",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-27",
+      "dow": "Sat",
+      "intern": "Cardwell (CALL)",
+      "intermediate": "Russell",
+      "chief": "Qureshi (RED)",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-28",
+      "dow": "Sun",
+      "intern": "White (CALL)",
+      "intermediate": "LaVigne",
+      "chief": "MacKay Forton (BLUE)",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-29",
+      "dow": "Mon",
+      "intern": "White (NIGHT ONLY)",
+      "intermediate": "LaVigne",
+      "chief": "Rogozinski",
+      "vacations": []
+    },
+    {
+      "date": "2026-06-30",
+      "dow": "Tue",
+      "intern": "Salim",
+      "intermediate": "LaVigne",
+      "chief": "Walsh",
+      "vacations": []
+    },
     {
       "date": "2026-07-01",
       "dow": "Wed",
