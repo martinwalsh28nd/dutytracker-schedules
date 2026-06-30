@@ -1,6 +1,6 @@
 {
   "hospital": "CMC",
-  "updated_at": "2026-06-27",
+  "updated_at": "2026-06-30",
   "schedule": [
     {
       "date": "2026-06-25",
@@ -30,7 +30,7 @@
       "date": "2026-06-28",
       "dow": "Sun",
       "intern": "White (CALL)",
-      "intermediate": "LaVigne",
+      "intermediate": "Keleher",
       "chief": "MacKay Forton (BLUE)",
       "vacations": []
     },
@@ -47,7 +47,7 @@
       "dow": "Tue",
       "intern": "Salim",
       "intermediate": "LaVigne",
-      "chief": "Walsh",
+      "chief": "Kersting",
       "vacations": []
     },
     {
@@ -182,7 +182,7 @@
       "date": "2026-07-17",
       "dow": "Fri",
       "intern": "Ferozuddin",
-      "intermediate": "White",
+      "intermediate": "LaVigne",
       "chief": "Tutaj",
       "vacations": []
     },
@@ -190,7 +190,7 @@
       "date": "2026-07-18",
       "dow": "Sat",
       "intern": "Khan",
-      "intermediate": "Keleher",
+      "intermediate": "White",
       "chief": "MacKay Forton (BLUE)",
       "vacations": []
     },
@@ -271,7 +271,7 @@
       "dow": "Tue",
       "intern": "Myint",
       "intermediate": "LaVigne",
-      "chief": "Chandrakumaran",
+      "chief": "Kersting",
       "vacations": []
     },
     {
@@ -295,7 +295,7 @@
       "dow": "Fri",
       "intern": "Ferozuddin",
       "intermediate": "Keleher",
-      "chief": "Kersting",
+      "chief": "Chandrakumaran",
       "vacations": []
     },
     {
