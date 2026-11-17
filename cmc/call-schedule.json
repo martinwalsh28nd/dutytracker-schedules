@@ -1,6 +1,6 @@
 {
   "hospital": "CMC",
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-11-16",
   "schedule": [
     {
       "date": "2026-06-25",
@@ -1057,7 +1057,7 @@
     {
       "date": "2026-10-12",
       "dow": "Mon",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Gokhale",
       "chief": "Obiakor",
       "vacations": [
@@ -1200,7 +1200,7 @@
     {
       "date": "2026-10-27",
       "dow": "Tue",
-      "intern": "Myint",
+      "intern": "Seo",
       "intermediate": "Gokhale",
       "chief": "Kersting",
       "vacations": []
@@ -1288,7 +1288,7 @@
     {
       "date": "2026-11-07",
       "dow": "Sat",
-      "intern": "Seo",
+      "intern": "Ferozuddin",
       "intermediate": "Salim",
       "chief": "Mark (BLUE)",
       "vacations": []
@@ -1296,7 +1296,7 @@
     {
       "date": "2026-11-08",
       "dow": "Sun",
-      "intern": "Ferozuddin",
+      "intern": "Seo",
       "intermediate": "Gokhale",
       "chief": "Walsh",
       "vacations": []
@@ -1372,7 +1372,7 @@
     {
       "date": "2026-11-16",
       "dow": "Mon",
-      "intern": "Khan",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Kersting",
       "vacations": []
@@ -1380,7 +1380,7 @@
     {
       "date": "2026-11-17",
       "dow": "Tue",
-      "intern": "Rosson",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Tutaj",
       "vacations": []
@@ -1388,7 +1388,7 @@
     {
       "date": "2026-11-18",
       "dow": "Wed",
-      "intern": "Ferozuddin",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "MacKay Forton (RED)",
       "vacations": []
@@ -1396,7 +1396,7 @@
     {
       "date": "2026-11-19",
       "dow": "Thu",
-      "intern": "Khan",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Mark (BLUE)",
       "vacations": []
@@ -1420,7 +1420,7 @@
     {
       "date": "2026-11-22",
       "dow": "Sun",
-      "intern": "Myint",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "MacKay Forton (RED)",
       "vacations": []
@@ -1428,7 +1428,7 @@
     {
       "date": "2026-11-23",
       "dow": "Mon",
-      "intern": "Ferozuddin",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Obiakor",
       "vacations": [
@@ -1440,7 +1440,7 @@
     {
       "date": "2026-11-24",
       "dow": "Tue",
-      "intern": "Engelhardt",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Pekarek",
       "vacations": [
@@ -1452,7 +1452,7 @@
     {
       "date": "2026-11-25",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Mark (BLUE)",
       "vacations": [
@@ -1464,7 +1464,7 @@
     {
       "date": "2026-11-26",
       "dow": "Thu",
-      "intern": "Myint",
+      "intern": "Myint/Mehdiyar",
       "intermediate": "Enrietto/Gokhale",
       "chief": "MacKay Forton (RED)",
       "vacations": [
@@ -1500,7 +1500,7 @@
     {
       "date": "2026-11-29",
       "dow": "Sun",
-      "intern": "Engelhardt",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Mark (BLUE)",
       "vacations": [
@@ -1512,15 +1512,15 @@
     {
       "date": "2026-11-30",
       "dow": "Mon",
-      "intern": "Myint",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
-      "chief": "Walsh",
+      "chief": "MacKay Forton (RED)",
       "vacations": []
     },
     {
       "date": "2026-12-01",
       "dow": "Tue",
-      "intern": "Rosson",
+      "intern": "Mehdiyar",
       "intermediate": "Gokhale",
       "chief": "Sumra",
       "vacations": []
@@ -1528,7 +1528,7 @@
     {
       "date": "2026-12-02",
       "dow": "Wed",
-      "intern": "Ferozuddin",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": []
@@ -1536,7 +1536,7 @@
     {
       "date": "2026-12-03",
       "dow": "Thu",
-      "intern": "Khan",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": []
@@ -1572,7 +1572,8 @@
       "intermediate": "Shabeeb",
       "chief": "Tutaj",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
@@ -1582,7 +1583,8 @@
       "intermediate": "Shabeeb",
       "chief": "Walsh",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
@@ -1592,37 +1594,41 @@
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
       "date": "2026-12-10",
       "dow": "Thu",
-      "intern": "Myint",
+      "intern": "Khan",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
       "date": "2026-12-11",
       "dow": "Fri",
       "intern": "Engelhardt",
-      "intermediate": "Adams",
+      "intermediate": "Taylor",
       "chief": "Mark",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
       "date": "2026-12-12",
       "dow": "Sat",
-      "intern": "Khan",
-      "intermediate": "Taylor",
+      "intern": "Myint",
+      "intermediate": "Adams",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
@@ -1632,13 +1638,14 @@
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
-        "Ferozuddin"
+        "Ferozuddin",
+        "Mehdiyar"
       ]
     },
     {
       "date": "2026-12-14",
       "dow": "Mon",
-      "intern": "Myint",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Tutaj",
       "vacations": [
@@ -1648,7 +1655,7 @@
     {
       "date": "2026-12-15",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Walsh",
       "vacations": [
@@ -1658,7 +1665,7 @@
     {
       "date": "2026-12-16",
       "dow": "Wed",
-      "intern": "Engelhardt",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -1668,7 +1675,7 @@
     {
       "date": "2026-12-17",
       "dow": "Thu",
-      "intern": "Rosson",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
@@ -1699,7 +1706,7 @@
     {
       "date": "2026-12-20",
       "dow": "Sun",
-      "intern": "Rosson",
+      "intern": "Mehdiyar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -1716,7 +1723,8 @@
       "vacations": [
         "Mark",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
@@ -1728,7 +1736,8 @@
       "vacations": [
         "Mark",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
@@ -1740,7 +1749,8 @@
       "vacations": [
         "Mark",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
@@ -1752,7 +1762,8 @@
       "vacations": [
         "Mark",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
@@ -1764,7 +1775,8 @@
       "vacations": [
         "Mark",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
@@ -1776,7 +1788,8 @@
       "vacations": [
         "Alshiekh",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
@@ -1788,23 +1801,14 @@
       "vacations": [
         "Alshiekh",
         "Enrietto",
-        "Khan"
+        "Khan",
+        "Hoodfar"
       ]
     },
     {
       "date": "2026-12-28",
       "dow": "Mon",
-      "intern": "Khan",
-      "intermediate": "Shabeeb",
-      "chief": "Gross",
-      "vacations": [
-        "Alshiekh"
-      ]
-    },
-    {
-      "date": "2026-12-29",
-      "dow": "Tue",
-      "intern": "Rosson",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Tutaj",
       "vacations": [
@@ -1812,9 +1816,19 @@
       ]
     },
     {
+      "date": "2026-12-29",
+      "dow": "Tue",
+      "intern": "Hoodfar",
+      "intermediate": "Shabeeb",
+      "chief": "Gross",
+      "vacations": [
+        "Alshiekh"
+      ]
+    },
+    {
       "date": "2026-12-30",
       "dow": "Wed",
-      "intern": "Rodriguez",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -1824,7 +1838,7 @@
     {
       "date": "2026-12-31",
       "dow": "Thu",
-      "intern": "Ferozuddin",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
@@ -1852,7 +1866,7 @@
     {
       "date": "2027-01-03",
       "dow": "Sun",
-      "intern": "Rodriguez",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": []
@@ -1860,7 +1874,7 @@
     {
       "date": "2027-01-04",
       "dow": "Mon",
-      "intern": "Engelhardt",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Alshiekh",
       "vacations": [
@@ -1872,7 +1886,7 @@
     {
       "date": "2027-01-05",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Walsh",
       "vacations": [
@@ -1884,7 +1898,7 @@
     {
       "date": "2027-01-06",
       "dow": "Wed",
-      "intern": "Khan",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
@@ -1896,7 +1910,7 @@
     {
       "date": "2027-01-07",
       "dow": "Thu",
-      "intern": "Engelhardt",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -1932,7 +1946,7 @@
     {
       "date": "2027-01-10",
       "dow": "Sun",
-      "intern": "Khan",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
@@ -1944,7 +1958,7 @@
     {
       "date": "2027-01-11",
       "dow": "Mon",
-      "intern": "Ferozuddin",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Tutaj",
       "vacations": [
@@ -1955,7 +1969,7 @@
     {
       "date": "2027-01-12",
       "dow": "Tue",
-      "intern": "Rodriguez",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Mark",
       "vacations": [
@@ -1966,7 +1980,7 @@
     {
       "date": "2027-01-13",
       "dow": "Wed",
-      "intern": "Engelhardt",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -1977,7 +1991,7 @@
     {
       "date": "2027-01-14",
       "dow": "Thu",
-      "intern": "Khan",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
@@ -2010,7 +2024,7 @@
     {
       "date": "2027-01-17",
       "dow": "Sun",
-      "intern": "Engelhardt",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -2021,7 +2035,7 @@
     {
       "date": "2027-01-18",
       "dow": "Mon",
-      "intern": "Rosson",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Mark",
       "vacations": [
@@ -2031,7 +2045,7 @@
     {
       "date": "2027-01-19",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Gross",
       "vacations": [
@@ -2041,7 +2055,7 @@
     {
       "date": "2027-01-20",
       "dow": "Wed",
-      "intern": "Khan",
+      "intern": "Hoodfar",
       "intermediate": "Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
@@ -2051,7 +2065,7 @@
     {
       "date": "2027-01-21",
       "dow": "Thu",
-      "intern": "Engelhardt",
+      "intern": "Hoodfar",
       "intermediate": "Kerber",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
@@ -2081,7 +2095,7 @@
     {
       "date": "2027-01-24",
       "dow": "Sun",
-      "intern": "Ferozuddin",
+      "intern": "Hoodfar",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2091,7 +2105,7 @@
     {
       "date": "2027-01-25",
       "dow": "Mon",
-      "intern": "Hoodfar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Pekarek",
       "vacations": [
@@ -2101,7 +2115,7 @@
     {
       "date": "2027-01-26",
       "dow": "Tue",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Chandrakumaran",
       "vacations": [
@@ -2111,7 +2125,7 @@
     {
       "date": "2027-01-27",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": []
@@ -2119,7 +2133,7 @@
     {
       "date": "2027-01-28",
       "dow": "Thu",
-      "intern": "Engelhardt",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": []
@@ -2127,7 +2141,7 @@
     {
       "date": "2027-01-29",
       "dow": "Fri",
-      "intern": "Hoodfar",
+      "intern": "Rodriguez",
       "intermediate": "Sun",
       "chief": "Kersting",
       "vacations": []
@@ -2135,7 +2149,7 @@
     {
       "date": "2027-01-30",
       "dow": "Sat",
-      "intern": "Rodriguez",
+      "intern": "Mehdiyar",
       "intermediate": "Lecointe",
       "chief": "Tutaj (BLUE)",
       "vacations": []
@@ -2143,7 +2157,7 @@
     {
       "date": "2027-01-31",
       "dow": "Sun",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": []
@@ -2151,7 +2165,7 @@
     {
       "date": "2027-02-01",
       "dow": "Mon",
-      "intern": "Rodriguez",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Qureshi",
       "vacations": [
@@ -2161,7 +2175,7 @@
     {
       "date": "2027-02-02",
       "dow": "Tue",
-      "intern": "Rosson",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Obiakor",
       "vacations": [
@@ -2171,7 +2185,7 @@
     {
       "date": "2027-02-03",
       "dow": "Wed",
-      "intern": "Engelhardt",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2181,7 +2195,7 @@
     {
       "date": "2027-02-04",
       "dow": "Thu",
-      "intern": "Rodriguez",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2211,7 +2225,7 @@
     {
       "date": "2027-02-07",
       "dow": "Sun",
-      "intern": "Engelhardt",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2221,7 +2235,7 @@
     {
       "date": "2027-02-08",
       "dow": "Mon",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Chandrakumaran",
       "vacations": [
@@ -2231,7 +2245,7 @@
     {
       "date": "2027-02-09",
       "dow": "Tue",
-      "intern": "Rodriguez",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Kersting",
       "vacations": [
@@ -2241,7 +2255,7 @@
     {
       "date": "2027-02-10",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2251,7 +2265,7 @@
     {
       "date": "2027-02-11",
       "dow": "Thu",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2261,7 +2275,7 @@
     {
       "date": "2027-02-12",
       "dow": "Fri",
-      "intern": "Rodriguez",
+      "intern": "Mehdiyar",
       "intermediate": "Adams",
       "chief": "Qureshi",
       "vacations": [
@@ -2281,7 +2295,7 @@
     {
       "date": "2027-02-14",
       "dow": "Sun",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2291,7 +2305,7 @@
     {
       "date": "2027-02-15",
       "dow": "Mon",
-      "intern": "Hoodfar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Pekarek",
       "vacations": []
@@ -2299,7 +2313,7 @@
     {
       "date": "2027-02-16",
       "dow": "Tue",
-      "intern": "Rodriguez",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Kersting",
       "vacations": []
@@ -2307,7 +2321,7 @@
     {
       "date": "2027-02-17",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": []
@@ -2315,7 +2329,7 @@
     {
       "date": "2027-02-18",
       "dow": "Thu",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": []
@@ -2339,7 +2353,7 @@
     {
       "date": "2027-02-21",
       "dow": "Sun",
-      "intern": "Rosson",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": []
@@ -2347,7 +2361,7 @@
     {
       "date": "2027-02-22",
       "dow": "Mon",
-      "intern": "Engelhardt",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Qureshi",
       "vacations": [
@@ -2359,7 +2373,7 @@
     {
       "date": "2027-02-23",
       "dow": "Tue",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Kersting",
       "vacations": [
@@ -2371,7 +2385,7 @@
     {
       "date": "2027-02-24",
       "dow": "Wed",
-      "intern": "Hoodfar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2383,7 +2397,7 @@
     {
       "date": "2027-02-25",
       "dow": "Thu",
-      "intern": "Engelhardt",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2419,7 +2433,7 @@
     {
       "date": "2027-02-28",
       "dow": "Sun",
-      "intern": "Hoodfar",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2431,7 +2445,7 @@
     {
       "date": "2027-03-01",
       "dow": "Mon",
-      "intern": "Ferozuddin",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Gross",
       "vacations": [
@@ -2442,7 +2456,7 @@
     {
       "date": "2027-03-02",
       "dow": "Tue",
-      "intern": "Khan",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Kersting",
       "vacations": [
@@ -2454,7 +2468,7 @@
     {
       "date": "2027-03-03",
       "dow": "Wed",
-      "intern": "Seo",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2466,7 +2480,7 @@
     {
       "date": "2027-03-04",
       "dow": "Thu",
-      "intern": "Hoodfar",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2490,7 +2504,7 @@
     {
       "date": "2027-03-06",
       "dow": "Sat",
-      "intern": "Khan",
+      "intern": "Seo",
       "intermediate": "Adams",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2502,7 +2516,7 @@
     {
       "date": "2027-03-07",
       "dow": "Sun",
-      "intern": "Seo",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2514,7 +2528,7 @@
     {
       "date": "2027-03-08",
       "dow": "Mon",
-      "intern": "Rodriguez",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Chandrakumaran",
       "vacations": [
@@ -2526,7 +2540,7 @@
     {
       "date": "2027-03-09",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Kersting",
       "vacations": [
@@ -2537,7 +2551,7 @@
     {
       "date": "2027-03-10",
       "dow": "Wed",
-      "intern": "Hoodfar",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Mark (RED)",
       "vacations": [
@@ -2548,7 +2562,7 @@
     {
       "date": "2027-03-11",
       "dow": "Thu",
-      "intern": "Seo",
+      "intern": "Negron",
       "intermediate": "Kerber",
       "chief": "Tutaj (BLUE)",
       "vacations": [
@@ -2596,7 +2610,8 @@
       "intermediate": "Russell",
       "chief": "MacKay Forton",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
@@ -2606,47 +2621,52 @@
       "intermediate": "Russell",
       "chief": "Qureshi",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
       "date": "2027-03-17",
       "dow": "Wed",
-      "intern": "Seo",
+      "intern": "Rodriguez",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
       "date": "2027-03-18",
       "dow": "Thu",
-      "intern": "Rodriguez",
+      "intern": "Hoodfar",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
       "date": "2027-03-19",
       "dow": "Fri",
-      "intern": "Ferozuddin",
+      "intern": "Seo",
       "intermediate": "White",
       "chief": "Mark",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
       "date": "2027-03-20",
       "dow": "Sat",
-      "intern": "Seo",
+      "intern": "Ferozuddin",
       "intermediate": "Adams",
       "chief": "Kersting (RED)",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
@@ -2656,13 +2676,14 @@
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
-        "Shabeeb"
+        "Shabeeb",
+        "Negron"
       ]
     },
     {
       "date": "2027-03-22",
       "dow": "Mon",
-      "intern": "Hoodfar",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Alshiekh",
       "vacations": [
@@ -2672,7 +2693,7 @@
     {
       "date": "2027-03-23",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "MacKay Forton",
       "vacations": [
@@ -2682,7 +2703,7 @@
     {
       "date": "2027-03-24",
       "dow": "Wed",
-      "intern": "Rodriguez",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2692,7 +2713,7 @@
     {
       "date": "2027-03-25",
       "dow": "Thu",
-      "intern": "Hoodfar",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -2702,7 +2723,7 @@
     {
       "date": "2027-03-26",
       "dow": "Fri",
-      "intern": "Khan",
+      "intern": "Hoodfar",
       "intermediate": "Taylor",
       "chief": "Qureshi",
       "vacations": [
@@ -2722,7 +2743,7 @@
     {
       "date": "2027-03-28",
       "dow": "Sun",
-      "intern": "Hoodfar",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2733,7 +2754,7 @@
     {
       "date": "2027-03-29",
       "dow": "Mon",
-      "intern": "Seo",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Sumra",
       "vacations": [
@@ -2743,7 +2764,7 @@
     {
       "date": "2027-03-30",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2753,7 +2774,7 @@
     {
       "date": "2027-03-31",
       "dow": "Wed",
-      "intern": "Rodriguez",
+      "intern": "Negron",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -2763,7 +2784,7 @@
     {
       "date": "2027-04-01",
       "dow": "Thu",
-      "intern": "Negron",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2773,7 +2794,7 @@
     {
       "date": "2027-04-02",
       "dow": "Fri",
-      "intern": "Myint",
+      "intern": "Negron",
       "intermediate": "Sun",
       "chief": "MacKay Forton",
       "vacations": [
@@ -2783,7 +2804,7 @@
     {
       "date": "2027-04-03",
       "dow": "Sat",
-      "intern": "Mehdiyar",
+      "intern": "Seo",
       "intermediate": "Lenihan",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2793,7 +2814,7 @@
     {
       "date": "2027-04-04",
       "dow": "Sun",
-      "intern": "Negron",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -2803,7 +2824,7 @@
     {
       "date": "2027-04-05",
       "dow": "Mon",
-      "intern": "Seo",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Qureshi",
       "vacations": [
@@ -2813,7 +2834,7 @@
     {
       "date": "2027-04-06",
       "dow": "Tue",
-      "intern": "Mehdiyar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Mark",
       "vacations": [
@@ -2823,7 +2844,7 @@
     {
       "date": "2027-04-07",
       "dow": "Wed",
-      "intern": "Hoodfar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2833,7 +2854,7 @@
     {
       "date": "2027-04-08",
       "dow": "Thu",
-      "intern": "Negron",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -2863,7 +2884,7 @@
     {
       "date": "2027-04-11",
       "dow": "Sun",
-      "intern": "Negron",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2873,7 +2894,7 @@
     {
       "date": "2027-04-12",
       "dow": "Mon",
-      "intern": "Myint",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Sumra",
       "vacations": [
@@ -2884,7 +2905,7 @@
     {
       "date": "2027-04-13",
       "dow": "Tue",
-      "intern": "Seo",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Qureshi",
       "vacations": [
@@ -2895,7 +2916,7 @@
     {
       "date": "2027-04-14",
       "dow": "Wed",
-      "intern": "Hoodfar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -2906,7 +2927,7 @@
     {
       "date": "2027-04-15",
       "dow": "Thu",
-      "intern": "Negron",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2917,7 +2938,7 @@
     {
       "date": "2027-04-16",
       "dow": "Fri",
-      "intern": "Mehdiyar",
+      "intern": "Myint",
       "intermediate": "Alrashid",
       "chief": "Pekarek",
       "vacations": [
@@ -2928,7 +2949,7 @@
     {
       "date": "2027-04-17",
       "dow": "Sat",
-      "intern": "Seo",
+      "intern": "Mehdiyar",
       "intermediate": "Lenihan",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2939,7 +2960,7 @@
     {
       "date": "2027-04-18",
       "dow": "Sun",
-      "intern": "Myint",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -2950,7 +2971,7 @@
     {
       "date": "2027-04-19",
       "dow": "Mon",
-      "intern": "Hoodfar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Mark",
       "vacations": [
@@ -2961,7 +2982,7 @@
     {
       "date": "2027-04-20",
       "dow": "Tue",
-      "intern": "Negron",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "MacKay Forton",
       "vacations": [
@@ -2972,7 +2993,7 @@
     {
       "date": "2027-04-21",
       "dow": "Wed",
-      "intern": "Myint",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -2983,7 +3004,7 @@
     {
       "date": "2027-04-22",
       "dow": "Thu",
-      "intern": "Seo",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -3005,7 +3026,7 @@
     {
       "date": "2027-04-24",
       "dow": "Sat",
-      "intern": "Negron",
+      "intern": "Myint",
       "intermediate": "Shabeeb",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -3016,7 +3037,7 @@
     {
       "date": "2027-04-25",
       "dow": "Sun",
-      "intern": "Myint",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -3027,7 +3048,7 @@
     {
       "date": "2027-04-26",
       "dow": "Mon",
-      "intern": "Mehdiyar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Alshiekh",
       "vacations": [
@@ -3039,7 +3060,7 @@
     {
       "date": "2027-04-27",
       "dow": "Tue",
-      "intern": "Seo",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Mark",
       "vacations": [
@@ -3051,7 +3072,7 @@
     {
       "date": "2027-04-28",
       "dow": "Wed",
-      "intern": "Hoodfar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -3063,7 +3084,7 @@
     {
       "date": "2027-04-29",
       "dow": "Thu",
-      "intern": "Mehdiyar",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Kersting (RED)",
       "vacations": [
@@ -3099,7 +3120,7 @@
     {
       "date": "2027-05-02",
       "dow": "Sun",
-      "intern": "Myint",
+      "intern": "Ferozuddin",
       "intermediate": "Russell",
       "chief": "Walsh (BLUE)",
       "vacations": [
@@ -3111,7 +3132,7 @@
     {
       "date": "2027-05-03",
       "dow": "Mon",
-      "intern": "Rodriguez",
+      "intern": "Engelhardt",
       "intermediate": "Russell",
       "chief": "Qureshi",
       "vacations": [
@@ -3121,7 +3142,7 @@
     {
       "date": "2027-05-04",
       "dow": "Tue",
-      "intern": "Khan",
+      "intern": "Engelhardt",
       "intermediate": "Russell",
       "chief": "MacKay Forton",
       "vacations": [
@@ -3131,7 +3152,7 @@
     {
       "date": "2027-05-05",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3141,7 +3162,7 @@
     {
       "date": "2027-05-06",
       "dow": "Thu",
-      "intern": "Mehdiyar",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3186,7 +3207,8 @@
       "chief": "Mark",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
@@ -3197,7 +3219,8 @@
       "chief": "MacKay Forton",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
@@ -3208,7 +3231,8 @@
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
@@ -3219,7 +3243,8 @@
       "chief": "Tutaj (RED)",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
@@ -3230,7 +3255,8 @@
       "chief": "Walsh",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
@@ -3241,7 +3267,8 @@
       "chief": "Tutaj (RED)",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
@@ -3252,13 +3279,14 @@
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
         "Smith",
-        "Khan"
+        "Khan",
+        "Engelhardt"
       ]
     },
     {
       "date": "2027-05-17",
       "dow": "Mon",
-      "intern": "Khan",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Mark",
       "vacations": [
@@ -3269,7 +3297,7 @@
     {
       "date": "2027-05-18",
       "dow": "Tue",
-      "intern": "Myint",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "MacKay Forton",
       "vacations": [
@@ -3280,7 +3308,7 @@
     {
       "date": "2027-05-19",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3291,7 +3319,7 @@
     {
       "date": "2027-05-20",
       "dow": "Thu",
-      "intern": "Mehdiyar",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3324,7 +3352,7 @@
     {
       "date": "2027-05-23",
       "dow": "Sun",
-      "intern": "Khan",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3335,7 +3363,7 @@
     {
       "date": "2027-05-24",
       "dow": "Mon",
-      "intern": "Rosson",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "MacKay Forton",
       "vacations": [
@@ -3345,7 +3373,7 @@
     {
       "date": "2027-05-25",
       "dow": "Tue",
-      "intern": "Rodriguez",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Smith",
       "vacations": [
@@ -3355,7 +3383,7 @@
     {
       "date": "2027-05-26",
       "dow": "Wed",
-      "intern": "Mehdiyar",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3365,7 +3393,7 @@
     {
       "date": "2027-05-27",
       "dow": "Thu",
-      "intern": "Myint",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3395,7 +3423,7 @@
     {
       "date": "2027-05-30",
       "dow": "Sun",
-      "intern": "Mehdiyar",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3405,7 +3433,7 @@
     {
       "date": "2027-05-31",
       "dow": "Mon",
-      "intern": "Rodriguez",
+      "intern": "Engelhardt",
       "intermediate": "Keleher",
       "chief": "Mark",
       "vacations": [
@@ -3416,7 +3444,7 @@
     {
       "date": "2027-06-01",
       "dow": "Tue",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "MacKay Forton",
       "vacations": [
@@ -3427,7 +3455,7 @@
     {
       "date": "2027-06-02",
       "dow": "Wed",
-      "intern": "Ferozuddin",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3438,7 +3466,7 @@
     {
       "date": "2027-06-03",
       "dow": "Thu",
-      "intern": "Hoodfar",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3449,7 +3477,7 @@
     {
       "date": "2027-06-04",
       "dow": "Fri",
-      "intern": "Negron",
+      "intern": "Seo",
       "intermediate": "Gokhale",
       "chief": "Obiakor",
       "vacations": [
@@ -3471,7 +3499,7 @@
     {
       "date": "2027-06-06",
       "dow": "Sun",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3482,7 +3510,7 @@
     {
       "date": "2027-06-07",
       "dow": "Mon",
-      "intern": "Rosson",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Mark",
       "vacations": [
@@ -3493,7 +3521,7 @@
     {
       "date": "2027-06-08",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Walsh",
       "vacations": [
@@ -3504,7 +3532,7 @@
     {
       "date": "2027-06-09",
       "dow": "Wed",
-      "intern": "Rosson",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3515,7 +3543,7 @@
     {
       "date": "2027-06-10",
       "dow": "Thu",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": [
@@ -3548,7 +3576,7 @@
     {
       "date": "2027-06-13",
       "dow": "Sun",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": [
@@ -3559,7 +3587,7 @@
     {
       "date": "2027-06-14",
       "dow": "Mon",
-      "intern": "Negron",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Walsh",
       "vacations": []
@@ -3567,7 +3595,7 @@
     {
       "date": "2027-06-15",
       "dow": "Tue",
-      "intern": "Hoodfar",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "MacKay Forton",
       "vacations": []
@@ -3575,7 +3603,7 @@
     {
       "date": "2027-06-16",
       "dow": "Wed",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": []
@@ -3583,7 +3611,7 @@
     {
       "date": "2027-06-17",
       "dow": "Thu",
-      "intern": "Ferozuddin",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": []
@@ -3591,7 +3619,7 @@
     {
       "date": "2027-06-18",
       "dow": "Fri",
-      "intern": "Negron",
+      "intern": "Seo",
       "intermediate": "Kerber",
       "chief": "Mark",
       "vacations": []
@@ -3607,7 +3635,7 @@
     {
       "date": "2027-06-20",
       "dow": "Sun",
-      "intern": "Seo",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Tutaj (RED)",
       "vacations": []
@@ -3615,7 +3643,7 @@
     {
       "date": "2027-06-21",
       "dow": "Mon",
-      "intern": "Rosson",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "MacKay Forton",
       "vacations": []
@@ -3623,7 +3651,7 @@
     {
       "date": "2027-06-22",
       "dow": "Tue",
-      "intern": "Ferozuddin",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Mark",
       "vacations": []
@@ -3631,7 +3659,7 @@
     {
       "date": "2027-06-23",
       "dow": "Wed",
-      "intern": "Negron",
+      "intern": "Myint",
       "intermediate": "Keleher",
       "chief": "Chandrakumaran (BLUE)",
       "vacations": []
@@ -3645,7 +3673,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     },
     {
@@ -3657,7 +3686,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     },
     {
@@ -3669,7 +3699,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     },
     {
@@ -3681,7 +3712,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     },
     {
@@ -3693,7 +3725,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     },
     {
@@ -3705,7 +3738,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     },
     {
@@ -3717,7 +3751,8 @@
       "vacations": [
         "Lecointe",
         "Ferozuddin",
-        "Seo"
+        "Seo",
+        "Myint"
       ]
     }
   ]
