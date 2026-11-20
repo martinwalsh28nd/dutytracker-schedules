@@ -1,6 +1,6 @@
 {
   "hospital": "CMC",
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-20",
   "schedule": [
     {
       "date": "2026-06-25",
@@ -1757,7 +1757,7 @@
       "date": "2026-12-24",
       "dow": "Thu",
       "intern": "Rosson",
-      "intermediate": "Shabeeb",
+      "intermediate": "Kerber/Shabeeb",
       "chief": "Chandrakumaran (RED)",
       "vacations": [
         "Mark",
@@ -1838,8 +1838,8 @@
     {
       "date": "2026-12-31",
       "dow": "Thu",
-      "intern": "Hoodfar",
-      "intermediate": "Shabeeb",
+      "intern": "Khan/Hoodfar",
+      "intermediate": "Enrietto/Shabeeb",
       "chief": "Qureshi (BLUE)",
       "vacations": [
         "Alshiekh"
