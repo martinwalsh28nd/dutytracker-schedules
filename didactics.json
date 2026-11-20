@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "updated_at": "2026-11-20",
+  "days": [
+    {
+      "date": "2026-11-24",
+      "sessions": [
+        {
+          "title": "Chief admin meeting",
+          "lines": [
+            "Brittany Smith PGY-5",
+            "Teddy Rogozinski PGY-5"
+          ],
+          "start": "07:00",
+          "end": "08:00",
+          "rooms": [
+            "LGH Johnson Aud",
+            "CMC Robert Stein"
+          ]
+        },
+        {
+          "title": "Admin time for 2-5’s",
+          "lines": [
+            "Please take this time to log cases, check your work hours and get a flu shot (if needed)"
+          ],
+          "start": "08:00",
+          "end": "10:00",
+          "rooms": [
+            "LGH Johnson Aud",
+            "CMC Robert Stein"
+          ]
+        }
+      ]
+    }
+  ]
+}
