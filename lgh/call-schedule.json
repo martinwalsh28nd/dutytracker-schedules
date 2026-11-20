@@ -1,6 +1,6 @@
 {
   "hospital": "LGH",
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-20",
   "schedule": [
     {
       "date": "2026-06-25",
@@ -1667,7 +1667,7 @@
       "dow": "Sun",
       "intern": "Rodriguez",
       "intermediate": "White",
-      "chief": "Kersting",
+      "chief": "Obiakor",
       "vacations": []
     },
     {
@@ -1685,7 +1685,7 @@
       "dow": "Tue",
       "intern": "Rodriguez",
       "intermediate": "White",
-      "chief": "Obiakor",
+      "chief": "Kersting",
       "vacations": [
         "Sumra"
       ]
@@ -1695,7 +1695,7 @@
       "dow": "Wed",
       "intern": "Rodriguez",
       "intermediate": "White",
-      "chief": "Kersting",
+      "chief": "Obiakor",
       "vacations": [
         "Sumra"
       ]
@@ -1715,7 +1715,7 @@
       "dow": "Fri",
       "intern": "",
       "intermediate": "",
-      "chief": "MacKay Forton",
+      "chief": "Kersting",
       "vacations": [
         "Sumra"
       ]
@@ -1725,7 +1725,7 @@
       "dow": "Sat",
       "intern": "",
       "intermediate": "",
-      "chief": "Obiakor",
+      "chief": "MacKay Forton",
       "vacations": [
         "Sumra"
       ]
@@ -1755,7 +1755,7 @@
       "dow": "Tue",
       "intern": "Rodriguez",
       "intermediate": "White",
-      "chief": "MacKay Forton",
+      "chief": "Smith",
       "vacations": [
         "Seo"
       ]
@@ -1765,7 +1765,7 @@
       "dow": "Wed",
       "intern": "Rodriguez",
       "intermediate": "White",
-      "chief": "Sumra",
+      "chief": "Obiakor",
       "vacations": [
         "Seo"
       ]
@@ -1775,7 +1775,7 @@
       "dow": "Thu",
       "intern": "Rodriguez",
       "intermediate": "White",
-      "chief": "Smith",
+      "chief": "MacKay Forton",
       "vacations": [
         "Seo"
       ]
