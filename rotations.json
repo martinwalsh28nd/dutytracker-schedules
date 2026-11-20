@@ -1,0 +1,2470 @@
+{
+  "schema": 1,
+  "updated_at": "2026-11-20",
+  "blocks": [
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "ACS",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "CMC GS",
+      "resident": "Khan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "CMC NF",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "CMC Plastics",
+      "resident": "Rosson",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "CMC Thoracic",
+      "resident": "Mehdiyar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "CMC Vasc",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "LGH CRS",
+      "resident": "Rodriguez",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "LGH GS A",
+      "resident": "Seo",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "LGH GS B",
+      "resident": "Ngauv",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "LGH NF",
+      "resident": "Hoodfar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-07-01",
+      "end": "2026-08-03",
+      "service": "LGH Vasc",
+      "resident": "Negron",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "ACS",
+      "resident": "Hoodfar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "CMC GS",
+      "resident": "Negron",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "CMC NF",
+      "resident": "Rodriguez",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "CMC Plastics",
+      "resident": "Ngauv",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "CMC Thoracic",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "CMC Vasc",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "LGH CRS",
+      "resident": "Ferozuddin",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "LGH GS A",
+      "resident": "Engelhardt",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "LGH GS B",
+      "resident": "Khan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "LGH NF",
+      "resident": "Rosson",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-08-04",
+      "end": "2026-09-06",
+      "service": "LGH Vasc",
+      "resident": "Mehdiyar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "ACS",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "CMC GS",
+      "resident": "Mehdiyar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "CMC Plastics",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "CMC Thoracic",
+      "resident": "Negron",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "CMC Vasc",
+      "resident": "Rodriguez",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "LGH CRS",
+      "resident": "Myint",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "LGH GS A",
+      "resident": "Ferozuddin",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "LGH GS B",
+      "resident": "Rosson",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "LGH NF",
+      "resident": "Khan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-09-07",
+      "end": "2026-10-11",
+      "service": "LGH Vasc",
+      "resident": "Hoodfar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "ACS",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "CMC GS",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "CMC Plastics",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "CMC Thoracic",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "CMC Vasc",
+      "resident": "Negron",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "LGH CRS",
+      "resident": "Hoodfar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "LGH GS A",
+      "resident": "Rosson",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "LGH GS B",
+      "resident": "Rodriguez",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "LGH NF",
+      "resident": "Mehdiyar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-10-12",
+      "end": "2026-11-15",
+      "service": "LGH Vasc",
+      "resident": "Khan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "ACS",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "CMC GS",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "CMC NF",
+      "resident": "Mehdiyar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "CMC Plastics",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "CMC Thoracic",
+      "resident": "Khan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "CMC Vasc",
+      "resident": "Rosson",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "LGH CRS",
+      "resident": "Hoodfar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "LGH GS A",
+      "resident": "Negron",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "LGH NF",
+      "resident": "Rodriguez",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-11-16",
+      "end": "2026-12-20",
+      "service": "LGH Vasc",
+      "resident": "Seo",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "ACS",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "CMC GS",
+      "resident": "Rodriguez",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "CMC NF",
+      "resident": "Hoodfar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "CMC Plastics",
+      "resident": "Khan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "CMC Thoracic",
+      "resident": "Rosson",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "CMC Vasc",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "LGH CRS",
+      "resident": "Negron",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "LGH GS A",
+      "resident": "Mehdiyar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "LGH NF",
+      "resident": "Seo",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2026-12-21",
+      "end": "2027-01-24",
+      "service": "LGH Vasc",
+      "resident": "Myint",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "ACS",
+      "resident": "Rosson",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "CMC GS",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "CMC NF",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "CMC Plastics",
+      "resident": "Hoodfar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "CMC Thoracic",
+      "resident": "Rodriguez",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "CMC Vasc",
+      "resident": "Mehdiyar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "LGH CRS",
+      "resident": "Khan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "LGH GS A",
+      "resident": "Myint",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "LGH NF",
+      "resident": "Ferozuddin",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-01-25",
+      "end": "2027-02-28",
+      "service": "LGH Vasc",
+      "resident": "Negron",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "ACS",
+      "resident": "Khan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "CMC GS",
+      "resident": "Hoodfar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "CMC NF",
+      "resident": "Negron",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "CMC Plastics",
+      "resident": "Rodriguez",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "CMC Thoracic",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "CMC Vasc",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "LGH CRS",
+      "resident": "Engelhardt",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "LGH GS A",
+      "resident": "Mehdiyar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "LGH NF",
+      "resident": "Myint",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "service": "LGH Vasc",
+      "resident": "Rosson",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "ACS",
+      "resident": "Mehdiyar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "CMC GS",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "CMC NF",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "CMC Plastics",
+      "resident": "Negron",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "CMC Thoracic",
+      "resident": "Ngauv",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "CMC Thoracic",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "CMC Vasc",
+      "resident": "Hoodfar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "LGH CRS",
+      "resident": "Rosson",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "LGH GS A",
+      "resident": "Khan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "LGH NF",
+      "resident": "Engelhardt",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-04-01",
+      "end": "2027-05-02",
+      "service": "LGH Vasc",
+      "resident": "Rodriguez",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "ACS",
+      "resident": "Rodriguez",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "CMC GS",
+      "resident": "Rosson",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "CMC NF",
+      "resident": "Engelhardt",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "CMC Plastics",
+      "resident": "Mehdiyar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "CMC Thoracic",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "CMC Vasc",
+      "resident": "Khan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "LGH CRS",
+      "resident": "Seo",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "LGH GS A",
+      "resident": "Hoodfar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "LGH NF",
+      "resident": "Negron",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-05-03",
+      "end": "2027-05-31",
+      "service": "LGH Vasc",
+      "resident": "Ferozuddin",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "ACS",
+      "resident": "Negron",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "CMC GS",
+      "resident": "Seo",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "CMC NF",
+      "resident": "Myint",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "CMC Plastics",
+      "resident": "Ferozuddin",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "CMC Thoracic",
+      "resident": "Hoodfar",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "CMC Vasc",
+      "resident": "Rosson",
+      "source": "CMC"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "LGH CRS",
+      "resident": "Mehdiyar",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "LGH GS A",
+      "resident": "Rodriguez",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "LGH NF",
+      "resident": "Khan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 1,
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "service": "LGH Vasc",
+      "resident": "Engelhardt",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-06-25",
+      "end": "2026-08-09",
+      "service": "ACS",
+      "resident": "Cardwell",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-06-25",
+      "end": "2026-08-09",
+      "service": "CMC Transplant",
+      "resident": "White",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-06-25",
+      "end": "2026-08-09",
+      "service": "LGH Breast",
+      "resident": "Enrietto",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-06-25",
+      "end": "2026-08-09",
+      "service": "LGH NF",
+      "resident": "Adams",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-06-25",
+      "end": "2026-08-09",
+      "service": "LGH Peds",
+      "resident": "Lecointe",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-06-25",
+      "end": "2026-08-09",
+      "service": "LGH TICU",
+      "resident": "Lenihan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-08-10",
+      "end": "2026-09-23",
+      "service": "ACS",
+      "resident": "Lenihan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-08-10",
+      "end": "2026-09-23",
+      "service": "CMC Transplant",
+      "resident": "Salim",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-08-10",
+      "end": "2026-09-23",
+      "service": "LGH Breast",
+      "resident": "Adams",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-08-10",
+      "end": "2026-09-23",
+      "service": "LGH NF",
+      "resident": "Cardwell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-08-10",
+      "end": "2026-09-23",
+      "service": "LGH Peds",
+      "resident": "Sun",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-08-10",
+      "end": "2026-09-23",
+      "service": "LGH TICU",
+      "resident": "Enrietto",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-09-24",
+      "end": "2026-11-08",
+      "service": "ACS",
+      "resident": "Salim",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-09-24",
+      "end": "2026-11-08",
+      "service": "CMC Transplant",
+      "resident": "Cardwell",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-09-24",
+      "end": "2026-11-08",
+      "service": "LGH Breast",
+      "resident": "Lecointe",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-09-24",
+      "end": "2026-11-08",
+      "service": "LGH NF",
+      "resident": "Sun",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-09-24",
+      "end": "2026-11-08",
+      "service": "LGH Peds",
+      "resident": "Lenihan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-09-24",
+      "end": "2026-11-08",
+      "service": "LGH TICU",
+      "resident": "White",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-11-09",
+      "end": "2026-12-27",
+      "service": "ACS",
+      "resident": "Adams",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-11-09",
+      "end": "2026-12-27",
+      "service": "CMC Transplant",
+      "resident": "Enrietto",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-11-09",
+      "end": "2026-12-27",
+      "service": "LGH Breast",
+      "resident": "Cardwell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-11-09",
+      "end": "2026-12-27",
+      "service": "LGH NF",
+      "resident": "White",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-11-09",
+      "end": "2026-12-27",
+      "service": "LGH Peds",
+      "resident": "Salim",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-11-09",
+      "end": "2026-12-27",
+      "service": "LGH TICU",
+      "resident": "Sun",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-12-28",
+      "end": "2027-02-07",
+      "service": "ACS",
+      "resident": "Lecointe",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-12-28",
+      "end": "2027-02-07",
+      "service": "CMC Transplant",
+      "resident": "Sun",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-12-28",
+      "end": "2027-02-07",
+      "service": "LGH Breast",
+      "resident": "Lenihan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-12-28",
+      "end": "2027-02-07",
+      "service": "LGH NF",
+      "resident": "Enrietto",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-12-28",
+      "end": "2027-02-07",
+      "service": "LGH Peds",
+      "resident": "Adams",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2026-12-28",
+      "end": "2027-02-07",
+      "service": "LGH TICU",
+      "resident": "Salim",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-02-08",
+      "end": "2027-03-28",
+      "service": "ACS",
+      "resident": "White",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-02-08",
+      "end": "2027-03-28",
+      "service": "CMC Transplant",
+      "resident": "Adams",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-02-08",
+      "end": "2027-03-28",
+      "service": "LGH Breast",
+      "resident": "Sun",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-02-08",
+      "end": "2027-03-28",
+      "service": "LGH NF",
+      "resident": "Salim",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-02-08",
+      "end": "2027-03-28",
+      "service": "LGH Peds",
+      "resident": "Cardwell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-02-08",
+      "end": "2027-03-28",
+      "service": "LGH TICU",
+      "resident": "Lecointe",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-03-29",
+      "end": "2027-05-09",
+      "service": "ACS",
+      "resident": "Sun",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-03-29",
+      "end": "2027-05-09",
+      "service": "CMC Transplant",
+      "resident": "Lenihan",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-03-29",
+      "end": "2027-05-09",
+      "service": "LGH Breast",
+      "resident": "White",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-03-29",
+      "end": "2027-05-09",
+      "service": "LGH NF",
+      "resident": "Lecointe",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-03-29",
+      "end": "2027-05-09",
+      "service": "LGH Peds",
+      "resident": "Enrietto",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-03-29",
+      "end": "2027-05-09",
+      "service": "LGH TICU",
+      "resident": "Adams",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-05-10",
+      "end": "2027-06-24",
+      "service": "ACS",
+      "resident": "Enrietto",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-05-10",
+      "end": "2027-06-24",
+      "service": "CMC Transplant",
+      "resident": "Lecointe",
+      "source": "CMC"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-05-10",
+      "end": "2027-06-24",
+      "service": "LGH Breast",
+      "resident": "Salim",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-05-10",
+      "end": "2027-06-24",
+      "service": "LGH NF",
+      "resident": "Lenihan",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-05-10",
+      "end": "2027-06-24",
+      "service": "LGH Peds",
+      "resident": "White",
+      "source": "LGH"
+    },
+    {
+      "pgy": 2,
+      "start": "2027-05-10",
+      "end": "2027-06-24",
+      "service": "LGH TICU",
+      "resident": "Cardwell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC NF",
+      "resident": "LaVigne",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC Thoracic",
+      "resident": "Russell",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH GI/Elective",
+      "resident": "Keleher",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH GS A",
+      "resident": "Shabeeb",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH GS B",
+      "resident": "Gokhale",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH Thor/Tr",
+      "resident": "Kerber",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH Vasc",
+      "resident": "Taylor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC NF",
+      "resident": "Taylor",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC Thoracic",
+      "resident": "LaVigne",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH GI/Elective",
+      "resident": "Gokhale",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH GS A",
+      "resident": "Kerber",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH GS B",
+      "resident": "Keleher",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH Thor/Tr",
+      "resident": "Shabeeb",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH Vasc",
+      "resident": "Russell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC NF",
+      "resident": "Gokhale",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC Thoracic",
+      "resident": "Keleher",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH GI/Elective",
+      "resident": "LaVigne",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH GS A",
+      "resident": "Russell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH GS B",
+      "resident": "Shabeeb",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH Thor/Tr",
+      "resident": "Taylor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH Vasc",
+      "resident": "Kerber",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC NF",
+      "resident": "Shabeeb",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC Thoracic",
+      "resident": "Kerber",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH GI/Elective",
+      "resident": "Taylor",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH GS A",
+      "resident": "Keleher",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH GS B",
+      "resident": "Russell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH Thor/Tr",
+      "resident": "Gokhale",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH Vasc",
+      "resident": "LaVigne",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC NF",
+      "resident": "Kerber",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC Thoracic",
+      "resident": "Shabeeb",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH GI/Elective",
+      "resident": "Russell",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH GS A",
+      "resident": "Taylor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH GS B",
+      "resident": "LaVigne",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH Thor/Tr",
+      "resident": "Keleher",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH Vasc",
+      "resident": "Gokhale",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC NF",
+      "resident": "Russell",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC Thoracic",
+      "resident": "Taylor",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH GI/Elective",
+      "resident": "Shabeeb",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH GS A",
+      "resident": "Gokhale",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH GS B",
+      "resident": "Kerber",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH Thor/Tr",
+      "resident": "LaVigne",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH Vasc",
+      "resident": "Keleher",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC NF",
+      "resident": "Keleher",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC Thoracic",
+      "resident": "Gokhale",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH GI/Elective",
+      "resident": "Kerber",
+      "source": "CMC"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH GS A",
+      "resident": "LaVigne",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH GS B",
+      "resident": "Taylor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH Thor/Tr",
+      "resident": "Russell",
+      "source": "LGH"
+    },
+    {
+      "pgy": 3,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH Vasc",
+      "resident": "Shabeeb",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "ACS",
+      "resident": "MacKay Forton (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "ACS",
+      "resident": "Qureshi (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC GS",
+      "resident": "Kersting",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC Vasc",
+      "resident": "Chandrakumaran",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "GSAM",
+      "resident": "Tutaj",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH GS A",
+      "resident": "Walsh",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH Peds",
+      "resident": "Mark",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "ACS",
+      "resident": "Kersting (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "ACS",
+      "resident": "Walsh (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC GS",
+      "resident": "Chandrakumaran",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC Vasc",
+      "resident": "MacKay Forton",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "GSAM",
+      "resident": "Qureshi",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH GS A",
+      "resident": "Mark",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH Peds",
+      "resident": "Tutaj",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "ACS",
+      "resident": "MacKay Forton (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "ACS",
+      "resident": "Mark (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC GS",
+      "resident": "Walsh",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC Vasc",
+      "resident": "Tutaj",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "GSAM",
+      "resident": "Kersting",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH GS A",
+      "resident": "Chandrakumaran",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH Peds",
+      "resident": "Qureshi",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "ACS",
+      "resident": "Chandrakumaran (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "ACS",
+      "resident": "Qureshi (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC GS",
+      "resident": "Tutaj",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC Vasc",
+      "resident": "Mark",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "GSAM",
+      "resident": "Walsh",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH GS A",
+      "resident": "Kersting",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH Peds",
+      "resident": "MacKay Forton",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "ACS",
+      "resident": "Mark (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "ACS",
+      "resident": "Tutaj (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC GS",
+      "resident": "Qureshi",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC Vasc",
+      "resident": "Kersting",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "GSAM",
+      "resident": "Chandrakumaran",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH GS A",
+      "resident": "MacKay Forton",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH Peds",
+      "resident": "Walsh",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "ACS",
+      "resident": "Kersting (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "ACS",
+      "resident": "Walsh (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC GS",
+      "resident": "MacKay Forton",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC Vasc",
+      "resident": "Qureshi",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "GSAM",
+      "resident": "Mark",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH GS A",
+      "resident": "Tutaj",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH Peds",
+      "resident": "Chandrakumaran",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "ACS",
+      "resident": "Chandrakumaran (BLUE)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "ACS",
+      "resident": "Tutaj (RED)",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC GS",
+      "resident": "Mark",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC Vasc",
+      "resident": "Walsh",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "GSAM",
+      "resident": "MacKay Forton",
+      "source": "CMC"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH GS A",
+      "resident": "Qureshi",
+      "source": "LGH"
+    },
+    {
+      "pgy": 4,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH Peds",
+      "resident": "Kersting",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC GS",
+      "resident": "Gross",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC HB/EN",
+      "resident": "Smith",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "CMC Vasc",
+      "resident": "Rogozinski",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "Float",
+      "resident": "Pekarek",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH CRS",
+      "resident": "Alshiekh",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH GS A",
+      "resident": "Obiakor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "service": "LGH GS B",
+      "resident": "Sumra",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC GS",
+      "resident": "Alshiekh",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC HB/EN",
+      "resident": "Sumra",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "CMC Vasc",
+      "resident": "Smith",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "Float",
+      "resident": "Rogozinski",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH CRS",
+      "resident": "Gross",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH GS A",
+      "resident": "Pekarek",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-08-17",
+      "end": "2026-10-06",
+      "service": "LGH GS B",
+      "resident": "Obiakor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC GS",
+      "resident": "Sumra",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC HB/EN",
+      "resident": "Obiakor",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "CMC Vasc",
+      "resident": "Pekarek",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "Float",
+      "resident": "Alshiekh",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH CRS",
+      "resident": "Smith",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH GS A",
+      "resident": "Gross",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-10-07",
+      "end": "2026-12-01",
+      "service": "LGH GS B",
+      "resident": "Rogozinski",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC GS",
+      "resident": "Rogozinski",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC HB/EN",
+      "resident": "Gross",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "CMC Vasc",
+      "resident": "Alshiekh",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "Float",
+      "resident": "Obiakor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH CRS",
+      "resident": "Pekarek",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH GS A",
+      "resident": "Sumra",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2026-12-02",
+      "end": "2027-01-20",
+      "service": "LGH GS B",
+      "resident": "Smith",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC GS",
+      "resident": "Obiakor",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC HB/EN",
+      "resident": "Pekarek",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "CMC Vasc",
+      "resident": "Gross",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "Float",
+      "resident": "Sumra",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH CRS",
+      "resident": "Rogozinski",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH GS A",
+      "resident": "Smith",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-01-21",
+      "end": "2027-03-14",
+      "service": "LGH GS B",
+      "resident": "Alshiekh",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC GS",
+      "resident": "Pekarek",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC HB/EN",
+      "resident": "Alshiekh",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "CMC Vasc",
+      "resident": "Sumra",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "Float",
+      "resident": "Smith",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH CRS",
+      "resident": "Obiakor",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH GS A",
+      "resident": "Rogozinski",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-03-15",
+      "end": "2027-05-04",
+      "service": "LGH GS B",
+      "resident": "Gross",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC GS",
+      "resident": "Smith",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC HB/EN",
+      "resident": "Rogozinski",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "CMC Vasc",
+      "resident": "Obiakor",
+      "source": "CMC"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "Float",
+      "resident": "Gross",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH CRS",
+      "resident": "Sumra",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH GS A",
+      "resident": "Alshiekh",
+      "source": "LGH"
+    },
+    {
+      "pgy": 5,
+      "start": "2027-05-05",
+      "end": "2027-06-24",
+      "service": "LGH GS B",
+      "resident": "Pekarek",
+      "source": "LGH"
+    }
+  ]
+}
