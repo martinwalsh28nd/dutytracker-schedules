@@ -1,6 +1,6 @@
 {
   "hospital": "LGH",
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "schedule": [
     {
       "date": "2026-06-25",
@@ -1957,7 +1957,7 @@
       "dow": "Sun",
       "intern": "Seo",
       "intermediate": "Enrietto",
-      "chief": "",
+      "chief": "Smith",
       "vacations": [
         "Obiakor",
         "Gokhale",
@@ -1969,7 +1969,7 @@
       "dow": "Mon",
       "intern": "Seo",
       "intermediate": "Enrietto",
-      "chief": "Smith",
+      "chief": "",
       "vacations": []
     },
     {
@@ -1985,7 +1985,7 @@
       "dow": "Wed",
       "intern": "Seo",
       "intermediate": "Enrietto",
-      "chief": "",
+      "chief": "Smith",
       "vacations": []
     },
     {
@@ -2001,7 +2001,7 @@
       "dow": "Fri",
       "intern": "",
       "intermediate": "",
-      "chief": "",
+      "chief": "Smith",
       "vacations": []
     },
     {
@@ -2009,7 +2009,7 @@
       "dow": "Sat",
       "intern": "",
       "intermediate": "",
-      "chief": "Smith",
+      "chief": "",
       "vacations": []
     },
     {
@@ -2025,7 +2025,7 @@
       "dow": "Mon",
       "intern": "Seo",
       "intermediate": "Enrietto",
-      "chief": "",
+      "chief": "Smith",
       "vacations": []
     },
     {
@@ -2033,7 +2033,7 @@
       "dow": "Tue",
       "intern": "Seo",
       "intermediate": "Enrietto",
-      "chief": "Smith",
+      "chief": "",
       "vacations": []
     },
     {
@@ -2042,7 +2042,9 @@
       "intern": "Seo",
       "intermediate": "Enrietto",
       "chief": "",
-      "vacations": []
+      "vacations": [
+        "Smith"
+      ]
     },
     {
       "date": "2027-01-14",
