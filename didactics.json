@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-22",
   "days": [
     {
       "date": "2026-11-24",
@@ -30,7 +30,8 @@
             "CMC Robert Stein"
           ]
         }
-      ]
+      ],
+      "join": "xce1HBdkkBTxVN6K9JkT2VvvTkji+JKxWDqhnH43qzVlzfLZ2E0v99RH75KcUim5r6p9xqcXynIsMOufd6Q7GuuWsqV9ovCBEZCzVoE3aqKA/i9xXXjZPLAehsA5g9xjbVB+cjWB5Hbh5kUm/AczVrZK6w7shE9JDw4Xc8qWorgOlay/kvw2VLZQTuu0VYO7NUQ+Q052XnBqlxADafpmcMT+UR0bCFzycKzFC8SVWrmCj54nlaPUWWqd6egWc7ic+Toz9IakTu+m5flm0cMpQem/SMjB/ci7zftb0mVTwIMazV8V3qve+zUkYzRHLtBGBzaEMVL1omrlVGeVnCRaSK4xh8yBFeoKSg5WmrIGzg=="
     }
   ]
 }
