@@ -1,6 +1,6 @@
 {
   "hospital": "LGH",
-  "updated_at": "2026-11-21",
+  "updated_at": "2026-11-25",
   "schedule": [
     {
       "date": "2026-06-25",
@@ -1649,16 +1649,16 @@
     {
       "date": "2026-12-04",
       "dow": "Fri",
-      "intern": "",
-      "intermediate": "",
+      "intern": "Seo",
+      "intermediate": "Sun",
       "chief": "Sumra",
       "vacations": []
     },
     {
       "date": "2026-12-05",
       "dow": "Sat",
-      "intern": "",
-      "intermediate": "",
+      "intern": "Hoodfar",
+      "intermediate": "Cardwell",
       "chief": "MacKay Forton",
       "vacations": []
     },
@@ -1713,8 +1713,8 @@
     {
       "date": "2026-12-11",
       "dow": "Fri",
-      "intern": "",
-      "intermediate": "",
+      "intern": "Seo",
+      "intermediate": "LaVigne",
       "chief": "Kersting",
       "vacations": [
         "Sumra"
@@ -1723,8 +1723,8 @@
     {
       "date": "2026-12-12",
       "dow": "Sat",
-      "intern": "",
-      "intermediate": "",
+      "intern": "Negron",
+      "intermediate": "Salim",
       "chief": "MacKay Forton",
       "vacations": [
         "Sumra"
@@ -1783,8 +1783,8 @@
     {
       "date": "2026-12-18",
       "dow": "Fri",
-      "intern": "",
-      "intermediate": "",
+      "intern": "Negron",
+      "intermediate": "Keleher",
       "chief": "Kersting",
       "vacations": [
         "Seo"
@@ -1793,8 +1793,8 @@
     {
       "date": "2026-12-19",
       "dow": "Sat",
-      "intern": "",
-      "intermediate": "",
+      "intern": "Hoodfar",
+      "intermediate": "Gokhale",
       "chief": "Sumra",
       "vacations": [
         "Seo"
@@ -1844,7 +1844,7 @@
       "date": "2026-12-24",
       "dow": "Thu",
       "intern": "Seo",
-      "intermediate": "White **HOLIDAY",
+      "intermediate": "Keleher/White**",
       "chief": "Obiakor",
       "vacations": [
         "Pekarek"
@@ -1853,8 +1853,8 @@
     {
       "date": "2026-12-25",
       "dow": "Fri",
-      "intern": "",
-      "intermediate": "Salim **HOLIDAY",
+      "intern": "Myint",
+      "intermediate": "Salim**",
       "chief": "Kersting",
       "vacations": [
         "Pekarek"
@@ -1863,7 +1863,7 @@
     {
       "date": "2026-12-26",
       "dow": "Sat",
-      "intern": "",
+      "intern": "Mehdiyar",
       "intermediate": "Russell",
       "chief": "Sumra",
       "vacations": [
@@ -1919,8 +1919,8 @@
     {
       "date": "2026-12-31",
       "dow": "Thu",
-      "intern": "Seo",
-      "intermediate": "Enrietto**HOLIDAY",
+      "intern": "Myint/Seo**",
+      "intermediate": "Adams/Enrietto**",
       "chief": "Pekarek",
       "vacations": [
         "Obiakor",
